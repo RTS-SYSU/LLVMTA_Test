@@ -20,7 +20,7 @@ if [ ! -d "$LOG_DIR" ]; then
 fi
 
 # clear
-> ./result.txt
+> ./LLVMTA_result.txt
 > ./number_result.txt
 
 # 记得先编译
@@ -69,11 +69,11 @@ for dir in "$TARGET_DIR"/*/; do
         echo "警告: ${base_dir_name} 中未找到有效性能数据"
         value="N/A"
         echo "${value}" >> ./number_result.txt
-        echo "${base_dir_name} ${value}" >> ./result.txt
+        echo "${base_dir_name} ${value}" >> ./LLVMTA_result.txt
     else
         # 写入结果文件
         echo "${value}" >> ./number_result.txt
-        echo "${base_dir_name} ${value}" >> ./result.txt
+        echo "${base_dir_name} ${value}" >> ./LLVMTA_result.txt
     fi
 
     # 输出提示信息

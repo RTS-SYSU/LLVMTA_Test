@@ -1,0 +1,16 @@
+binarysearch 33562
+bs 1135
+bsort 10403
+cjpeg_wrbmp 474212
+complex_updates 24649
+cosf 5227
+countnegative 113382
+cover 8724
+deg2rad 7413
+fibcall1 1599
+fir2dim 419224
+iir 34194
+jfdctint 72977
+matrix1 27724
+prime 8207
+rad2deg 6201
