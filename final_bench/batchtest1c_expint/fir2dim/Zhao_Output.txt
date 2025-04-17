@@ -1,0 +1,28 @@
+/workspaces/llvmta/testcases/batchtest/fir2dim
+main__CEOP_1 have 14716 instructions
+main_MAX_CEOP_: 14716
+--------------------------------------------------------------
+/workspaces/llvmta/testcases/batchtest/fir2dim
+main__CEOP_1 have 12836 instructions
+main_MAX_CEOP_: 12836
+--------------------------------------------------------------
+/workspaces/llvmta/testcases/batchtest/fir2dim
+main__CEOP_1 have 11636 instructions
+main_MAX_CEOP_: 11636
+--------------------------------------------------------------
+/workspaces/llvmta/testcases/batchtest/fir2dim
+main__CEOP_1 have 10096 instructions
+main_MAX_CEOP_: 10096
+--------------------------------------------------------------
+/workspaces/llvmta/testcases/batchtest/fir2dim
+main__CEOP_1 have 9296 instructions
+main_MAX_CEOP_: 9296
+--------------------------------------------------------------
+/workspaces/llvmta/testcases/batchtest/fir2dim
+main__CEOP_1 have 8956 instructions
+main_MAX_CEOP_: 8956
+--------------------------------------------------------------
+/workspaces/llvmta/testcases/batchtest/fir2dim
+main__CEOP_1 have 8368 instructions
+main_MAX_CEOP_: 8368
+--------------------------------------------------------------

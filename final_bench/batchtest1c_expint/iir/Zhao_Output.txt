@@ -1,0 +1,8 @@
+/workspaces/llvmta/testcases/batchtest/iir
+main__CEOP_1 have 554 instructions
+main_MAX_CEOP_: 554
+--------------------------------------------------------------
+/workspaces/llvmta/testcases/batchtest/iir
+main__CEOP_1 have 390 instructions
+main_MAX_CEOP_: 390
+--------------------------------------------------------------

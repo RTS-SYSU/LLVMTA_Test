@@ -1,0 +1,12 @@
+/workspaces/llvmta/testcases/batchtest/g723_enc
+main__CEOP_1 have 627 instructions
+main_MAX_CEOP_: 627
+--------------------------------------------------------------
+/workspaces/llvmta/testcases/batchtest/g723_enc
+main__CEOP_1 have 627 instructions
+main_MAX_CEOP_: 627
+--------------------------------------------------------------
+/workspaces/llvmta/testcases/batchtest/g723_enc
+main__CEOP_1 have 662 instructions
+main_MAX_CEOP_: 662
+--------------------------------------------------------------

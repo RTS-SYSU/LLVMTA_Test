@@ -1,0 +1,140 @@
+/workspaces/llvmta/testcases/batchtest/h264_dec
+main__CEOP_1 have 53300663 instructions
+main__CEOP_2 have 53300667 instructions
+main__CEOP_3 have 53300764 instructions
+main__CEOP_4 have 53300768 instructions
+main__CEOP_5 have 53300820 instructions
+main__CEOP_6 have 53300667 instructions
+main__CEOP_7 have 53300671 instructions
+main__CEOP_8 have 53300768 instructions
+main__CEOP_9 have 53300772 instructions
+main__CEOP_10 have 53300824 instructions
+main__CEOP_11 have 53300764 instructions
+main__CEOP_12 have 53300768 instructions
+main__CEOP_13 have 53300865 instructions
+main__CEOP_14 have 53300869 instructions
+main__CEOP_15 have 53300921 instructions
+main__CEOP_16 have 53300768 instructions
+main__CEOP_17 have 53300772 instructions
+main__CEOP_18 have 53300869 instructions
+main__CEOP_19 have 53300873 instructions
+main__CEOP_20 have 53300925 instructions
+main__CEOP_21 have 53300820 instructions
+main__CEOP_22 have 53300824 instructions
+main__CEOP_23 have 53300921 instructions
+main__CEOP_24 have 53300925 instructions
+main__CEOP_25 have 53300977 instructions
+main_MAX_CEOP_: 53300977
+--------------------------------------------------------------
+/workspaces/llvmta/testcases/batchtest/h264_dec
+main__CEOP_1 have 789423 instructions
+main__CEOP_2 have 789427 instructions
+main__CEOP_3 have 789524 instructions
+main__CEOP_4 have 789528 instructions
+main__CEOP_5 have 789580 instructions
+main__CEOP_6 have 789427 instructions
+main__CEOP_7 have 789431 instructions
+main__CEOP_8 have 789528 instructions
+main__CEOP_9 have 789532 instructions
+main__CEOP_10 have 789584 instructions
+main__CEOP_11 have 789524 instructions
+main__CEOP_12 have 789528 instructions
+main__CEOP_13 have 789625 instructions
+main__CEOP_14 have 789629 instructions
+main__CEOP_15 have 789681 instructions
+main__CEOP_16 have 789528 instructions
+main__CEOP_17 have 789532 instructions
+main__CEOP_18 have 789629 instructions
+main__CEOP_19 have 789633 instructions
+main__CEOP_20 have 789685 instructions
+main__CEOP_21 have 789580 instructions
+main__CEOP_22 have 789584 instructions
+main__CEOP_23 have 789681 instructions
+main__CEOP_24 have 789685 instructions
+main__CEOP_25 have 789737 instructions
+main_MAX_CEOP_: 789737
+--------------------------------------------------------------
+/workspaces/llvmta/testcases/batchtest/h264_dec
+main__CEOP_1 have 1077383 instructions
+main__CEOP_2 have 1077387 instructions
+main__CEOP_3 have 1077484 instructions
+main__CEOP_4 have 1077488 instructions
+main__CEOP_5 have 1077540 instructions
+main__CEOP_6 have 1077387 instructions
+main__CEOP_7 have 1077391 instructions
+main__CEOP_8 have 1077488 instructions
+main__CEOP_9 have 1077492 instructions
+main__CEOP_10 have 1077544 instructions
+main__CEOP_11 have 1077484 instructions
+main__CEOP_12 have 1077488 instructions
+main__CEOP_13 have 1077585 instructions
+main__CEOP_14 have 1077589 instructions
+main__CEOP_15 have 1077641 instructions
+main__CEOP_16 have 1077488 instructions
+main__CEOP_17 have 1077492 instructions
+main__CEOP_18 have 1077589 instructions
+main__CEOP_19 have 1077593 instructions
+main__CEOP_20 have 1077645 instructions
+main__CEOP_21 have 1077540 instructions
+main__CEOP_22 have 1077544 instructions
+main__CEOP_23 have 1077641 instructions
+main__CEOP_24 have 1077645 instructions
+main__CEOP_25 have 1077697 instructions
+main_MAX_CEOP_: 1077697
+--------------------------------------------------------------
+/workspaces/llvmta/testcases/batchtest/h264_dec
+main__CEOP_1 have 806343 instructions
+main__CEOP_2 have 806347 instructions
+main__CEOP_3 have 806444 instructions
+main__CEOP_4 have 806448 instructions
+main__CEOP_5 have 806500 instructions
+main__CEOP_6 have 806347 instructions
+main__CEOP_7 have 806351 instructions
+main__CEOP_8 have 806448 instructions
+main__CEOP_9 have 806452 instructions
+main__CEOP_10 have 806504 instructions
+main__CEOP_11 have 806444 instructions
+main__CEOP_12 have 806448 instructions
+main__CEOP_13 have 806545 instructions
+main__CEOP_14 have 806549 instructions
+main__CEOP_15 have 806601 instructions
+main__CEOP_16 have 806448 instructions
+main__CEOP_17 have 806452 instructions
+main__CEOP_18 have 806549 instructions
+main__CEOP_19 have 806553 instructions
+main__CEOP_20 have 806605 instructions
+main__CEOP_21 have 806500 instructions
+main__CEOP_22 have 806504 instructions
+main__CEOP_23 have 806601 instructions
+main__CEOP_24 have 806605 instructions
+main__CEOP_25 have 806657 instructions
+main_MAX_CEOP_: 806657
+--------------------------------------------------------------
+/workspaces/llvmta/testcases/batchtest/h264_dec
+main__CEOP_1 have 839351 instructions
+main__CEOP_2 have 839355 instructions
+main__CEOP_3 have 839452 instructions
+main__CEOP_4 have 839456 instructions
+main__CEOP_5 have 839508 instructions
+main__CEOP_6 have 839355 instructions
+main__CEOP_7 have 839359 instructions
+main__CEOP_8 have 839456 instructions
+main__CEOP_9 have 839460 instructions
+main__CEOP_10 have 839512 instructions
+main__CEOP_11 have 839452 instructions
+main__CEOP_12 have 839456 instructions
+main__CEOP_13 have 839553 instructions
+main__CEOP_14 have 839557 instructions
+main__CEOP_15 have 839609 instructions
+main__CEOP_16 have 839456 instructions
+main__CEOP_17 have 839460 instructions
+main__CEOP_18 have 839557 instructions
+main__CEOP_19 have 839561 instructions
+main__CEOP_20 have 839613 instructions
+main__CEOP_21 have 839508 instructions
+main__CEOP_22 have 839512 instructions
+main__CEOP_23 have 839609 instructions
+main__CEOP_24 have 839613 instructions
+main__CEOP_25 have 839665 instructions
+main_MAX_CEOP_: 839665
+--------------------------------------------------------------

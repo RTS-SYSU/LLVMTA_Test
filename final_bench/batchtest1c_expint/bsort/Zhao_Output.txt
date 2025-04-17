@@ -1,0 +1,8 @@
+/workspaces/llvmta/testcases/batchtest/bsort
+main__CEOP_1 have 225 instructions
+main_MAX_CEOP_: 225
+--------------------------------------------------------------
+/workspaces/llvmta/testcases/batchtest/bsort
+main__CEOP_1 have 152 instructions
+main_MAX_CEOP_: 152
+--------------------------------------------------------------

@@ -1,0 +1,16 @@
+/workspaces/llvmta/testcases/batchtest/fibcall
+main__CEOP_1 have 310 instructions
+main_MAX_CEOP_: 310
+--------------------------------------------------------------
+/workspaces/llvmta/testcases/batchtest/fibcall
+main__CEOP_1 have 54 instructions
+main_MAX_CEOP_: 54
+--------------------------------------------------------------
+/workspaces/llvmta/testcases/batchtest/fibcall
+main__CEOP_1 have 150 instructions
+main_MAX_CEOP_: 150
+--------------------------------------------------------------
+/workspaces/llvmta/testcases/batchtest/fibcall
+main__CEOP_1 have 182 instructions
+main_MAX_CEOP_: 182
+--------------------------------------------------------------

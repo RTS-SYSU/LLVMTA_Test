@@ -1,0 +1,61 @@
+main__CEOP_1 have 3792 instructions
+main__CEOP_2 have 6659 instructions
+main__CEOP_3 have 4423 instructions
+main__CEOP_4 have 7290 instructions
+main_MAX_CEOP_: 7290
+/workspaces/llvmta/testcases/batchtest/ndes
+main__CEOP_1 have 2502 instructions
+main__CEOP_2 have 5369 instructions
+main__CEOP_3 have 2533 instructions
+main__CEOP_4 have 5400 instructions
+main_MAX_CEOP_: 5400
+--------------------------------------------------------------
+/workspaces/llvmta/testcases/batchtest/ndes
+main__CEOP_1 have 2294 instructions
+main__CEOP_2 have 3849 instructions
+main__CEOP_3 have 2325 instructions
+main__CEOP_4 have 3880 instructions
+main_MAX_CEOP_: 3880
+--------------------------------------------------------------
+/workspaces/llvmta/testcases/batchtest/ndes
+main__CEOP_1 have 2502 instructions
+main__CEOP_2 have 4057 instructions
+main__CEOP_3 have 2533 instructions
+main__CEOP_4 have 4088 instructions
+main_MAX_CEOP_: 4088
+--------------------------------------------------------------
+/workspaces/llvmta/testcases/batchtest/ndes
+main__CEOP_1 have 2450 instructions
+main__CEOP_2 have 5317 instructions
+main__CEOP_3 have 2481 instructions
+main__CEOP_4 have 5348 instructions
+main_MAX_CEOP_: 5348
+--------------------------------------------------------------
+/workspaces/llvmta/testcases/batchtest/ndes
+main__CEOP_1 have 2398 instructions
+main__CEOP_2 have 5265 instructions
+main__CEOP_3 have 2429 instructions
+main__CEOP_4 have 5296 instructions
+main_MAX_CEOP_: 5296
+--------------------------------------------------------------
+/workspaces/llvmta/testcases/batchtest/ndes
+main__CEOP_1 have 2346 instructions
+main__CEOP_2 have 5213 instructions
+main__CEOP_3 have 2377 instructions
+main__CEOP_4 have 5244 instructions
+main_MAX_CEOP_: 5244
+--------------------------------------------------------------
+/workspaces/llvmta/testcases/batchtest/ndes
+main__CEOP_1 have 2294 instructions
+main__CEOP_2 have 5161 instructions
+main__CEOP_3 have 2325 instructions
+main__CEOP_4 have 5192 instructions
+main_MAX_CEOP_: 5192
+--------------------------------------------------------------
+/workspaces/llvmta/testcases/batchtest/ndes
+main__CEOP_1 have 2190 instructions
+main__CEOP_2 have 5057 instructions
+main__CEOP_3 have 2221 instructions
+main__CEOP_4 have 5088 instructions
+main_MAX_CEOP_: 5088
+--------------------------------------------------------------

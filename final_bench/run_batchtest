@@ -1,0 +1,81 @@
+#!/bin/bash
+
+# 使用方法 ./run_batchtest batchtest1c_expint
+# 获取脚本所在目录
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+# 定义要遍历的目录
+TARGET_DIR="$SCRIPT_DIR/$1"
+# 定义日志保存目录
+LOG_DIR="$SCRIPT_DIR/logs"
+
+# 检查目标目录是否存在
+if [ ! -d "$TARGET_DIR" ]; then
+    echo "错误：目录 $TARGET_DIR 不存在。" >&2
+    exit 1
+fi
+
+# 检查日志目录是否存在，若不存在则创建
+if [ ! -d "$LOG_DIR" ]; then
+    mkdir -p "$LOG_DIR"
+fi
+
+# clear
+> ./result.txt
+> ./number_result.txt
+
+# 记得先编译
+pushd "/workspaces/llvmta/build" || echo "Unable to compile"
+    echo "compiling..."
+    ninja -j4 || exit
+popd || exit
+
+find "$TARGET_DIR" -type f -name "*.ll" -delete
+
+# 遍历目标目录下的所有文件夹
+for dir in "$TARGET_DIR"/*/; do
+    # 去除文件夹名末尾的斜杠
+    dir_name="${dir%/}"
+    # 提取文件夹的基本名称
+    base_dir_name=$(basename "$dir_name")
+
+    # 检查文件夹名称是否为 "build"，如果是则跳过
+    if [ "$base_dir_name" = "build" ]; then
+        echo "跳过文件夹 $base_dir_name"
+        continue
+    fi
+    # 太耗时间
+    if [ "$base_dir_name" = "h264_dec" ]; then
+        # echo "跳过文件夹 $base_dir_name"
+        continue
+    fi
+    # 此版本会出错
+    if [ "$base_dir_name" = "g723_enc" ]; then
+        # echo "跳过文件夹 $base_dir_name"
+        continue
+    fi
+    if [ "$base_dir_name" = "ndes" ]; then
+        # echo "跳过文件夹 $base_dir_name"
+        continue
+    fi
+    
+    # 定义日志文件路径
+    LOG_FILE="$LOG_DIR/$base_dir_name.log"
+    # 运行命令并将输出重定向到日志文件
+    ./runTestcase "$1/$base_dir_name" --ta-analysis-entry-point=main > "$LOG_FILE" 2>&1
+    # additional output, please change the parameter $4 if the ouput is changed in llvmta
+    value=$(grep '^Calculated Timing Bound:' "$LOG_FILE" | tail -n 1 | awk '{target = $4; print target}')
+    # 增加有效性检查
+    if [ -z "$value" ]; then
+        echo "警告: ${base_dir_name} 中未找到有效性能数据"
+        value="N/A"
+        echo "${value}" >> ./number_result.txt
+        echo "${base_dir_name} ${value}" >> ./result.txt
+    else
+        # 写入结果文件
+        echo "${value}" >> ./number_result.txt
+        echo "${base_dir_name} ${value}" >> ./result.txt
+    fi
+
+    # 输出提示信息
+    echo "已完成对 $base_dir_name 的测试，日志已保存到 $LOG_FILE"
+done
