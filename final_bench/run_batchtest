@@ -37,6 +37,7 @@ for dir in "$TARGET_DIR"/*/; do
     dir_name="${dir%/}"
     # 提取文件夹的基本名称
     base_dir_name=$(basename "$dir_name")
+    # echo "base dir is ${base_dir_name}"
 
     # 检查文件夹名称是否为 "build"，如果是则跳过
     if [ "$base_dir_name" = "build" ]; then
@@ -60,8 +61,9 @@ for dir in "$TARGET_DIR"/*/; do
     
     # 定义日志文件路径
     LOG_FILE="$LOG_DIR/$base_dir_name.log"
+    echo "1 is $1 and base is ${base_dir_name}"
     # 运行命令并将输出重定向到日志文件
-    ./runTestcase "$1/$base_dir_name" --ta-analysis-entry-point=main > "$LOG_FILE" 2>&1
+    ./runTestcase "$1$base_dir_name" --ta-analysis-entry-point=main > "$LOG_FILE" 2>&1
     # additional output, please change the parameter $4 if the ouput is changed in llvmta
     value=$(grep '^Calculated Timing Bound:' "$LOG_FILE" | tail -n 1 | awk '{target = $4; print target}')
     # 增加有效性检查
