@@ -7,7 +7,7 @@ cosf 5227
 countnegative 113382
 cover 8724
 deg2rad 7413
-fibcall1 1599
+fibcall 1599
 fir2dim 419224
 iir 34194
 jfdctint 72977
