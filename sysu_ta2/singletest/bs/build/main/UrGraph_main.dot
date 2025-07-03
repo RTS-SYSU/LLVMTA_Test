@@ -1,0 +1,30 @@
+digraph "MachineCFG of main" {
+  Node0 [label="MI0x55cd31daf3c0\l  $sp = frame-destroy LDMIA_UPD $sp, 14, $noreg, def $r11, def $lr\l  isTransient:False\l  ExeCnt:1\l  MI's addr:0x800010 cache line:524289 cache index:1\l  More Info of MI:main_BB0_I8\lin UR2\l  May Load?1\l  May Store?0\l  ]\l  " fillcolor="turquoise" style="filled"];
+  Node0 -> Node5;
+  Node1 [label="MI0x55cd31daf508\l  renamable $r0 = MOVi 8, 14, $noreg, $noreg\l  isTransient:False\l  ExeCnt:1\l  MI's addr:0x800008 cache line:524288 cache index:0\l  More Info of MI:main_BB0_I6\lin UR8\l  May Load?0\l  May Store?0\l  ]\l  " fillcolor="turquoise" style="filled"];
+  Node1 -> Node3;
+  Node2 [label="MI0x55cd31daf650\l  $r11 = frame-setup MOVr killed $sp, 14, $noreg, $noreg\l  isTransient:False\l  ExeCnt:1\l  MI's addr:0x800004 cache line:524288 cache index:0\l  More Info of MI:main_BB0_I4\lin UR9\l  May Load?0\l  May Store?0\l  ]\l  " fillcolor="turquoise" style="filled"];
+  Node2 -> Node1;
+  Node3 [label="MI0x55cd31daf6d8\l  BL_pred @binary_search, 14, $noreg, <regmask $lr $d8 $d9 $d10 $d11 $d12 $d13 $d14 $d15 $q4 $q5 $q6 $q7 $r4 $r5 $r6 $r7 $r8 $r9 $r10 $r11 $s16 $s17 $s18 $s19 $s20 $s21 $s22 $s23 $s24 $s25 $s26 $s27 and 35 more...>, implicit-def dead $lr, implicit $sp, implicit killed $r0, implicit-def $sp, implicit-def $r0\l  isTransient:False\l  ExeCnt:1\l  MI's addr:0x80000c cache line:524288 cache index:0\l  More Info of MI:main_BB0_I7\lin UR7\l  May Load?0\l  May Store?0\l  ]\l  " fillcolor="turquoise" style="filled"];
+  Node3 -> Node6;
+  Node4 [label="MI0x55cd31dafa20\l  $sp = frame-setup STMDB_UPD $sp, 14, $noreg, killed $r11, killed $lr\l  isTransient:False\l  ExeCnt:1\l  MI's addr:0x800000 cache line:524288 cache index:0\l  More Info of MI:main_BB0_I0\lin UR10\l  May Load?0\l  May Store?1\l  ]\l  " fillcolor="turquoise" style="filled"];
+  Node4 -> Node2;
+  Node5 [label="MI0x55cd31dafb78\l  BX_RET 14, $noreg, implicit killed $r0\l  isTransient:False\l  ExeCnt:1\l  MI's addr:0x800014 cache line:524289 cache index:1\l  More Info of MI:main_BB0_I9\lin UR1\l  May Load?0\l  May Store?0\l  ]\l  " fillcolor="turquoise" style="filled"];
+  Node6 [label="MI0x55cd31dc1198\l  B %bb.1\l  isTransient:False\l  ExeCnt:1\l  MI's addr:0x800018 cache line:524289 cache index:1\l  More Info of MI:binary_search_BB0_I0\lin UR6\l  May Load?0\l  May Store?0\l  ]\l  " fillcolor="lightblue" style="filled"];
+  Node6 -> Node7;
+  Node7 [label="MI0x55cd31dc1200\l  renamable $r0 = MOVi 1, 14, $noreg, $noreg\l  isTransient:False\l  ExeCnt:1\l  MI's addr:0x80001c cache line:524289 cache index:1\l  More Info of MI:binary_search_BB1_I0\lin UR5\l  May Load?0\l  May Store?0\l  ]\l  " fillcolor="lightblue" style="filled"];
+  Node7 -> Node8;
+  Node8 [label="MI0x55cd31dc1348\l  CMPri killed renamable $r0, 0, 14, $noreg, implicit-def $cpsr\l  isTransient:False\l  ExeCnt:1\l  MI's addr:0x800020 cache line:524290 cache index:2\l  More Info of MI:binary_search_BB1_I1\lin UR5\l  May Load?0\l  May Store?0\l  ]\l  " fillcolor="lightblue" style="filled"];
+  Node8 -> Node9;
+  Node9 [label="MI0x55cd31dc1490\l  Bcc %bb.3, 1, killed $cpsr\l  isTransient:False\l  ExeCnt:1\l  MI's addr:0x800024 cache line:524290 cache index:2\l  More Info of MI:binary_search_BB1_I2\lin UR5\l  May Load?0\l  May Store?0\l  ]\l  " fillcolor="lightblue" style="filled"];
+  Node9 -> Node10;
+  Node10 [label="MI0x55cd31dc1558\l  B %bb.2\l  isTransient:False\l  ExeCnt:1\l  MI's addr:0x800028 cache line:524290 cache index:2\l  More Info of MI:binary_search_BB1_I3\lin UR5\l  May Load?0\l  May Store?0\l  ]\l  " fillcolor="lightblue" style="filled"];
+  Node10 -> Node13;
+  Node10 -> Node11;
+  Node11 [label="MI0x55cd31dc15c0\l  renamable $r0 = MOVi 0, 14, $noreg, $noreg\l  isTransient:False\l  ExeCnt:1\l  MI's addr:0x800030 cache line:524291 cache index:3\l  More Info of MI:binary_search_BB3_I0\lin UR4\l  May Load?0\l  May Store?0\l  ]\l  " fillcolor="lightblue" style="filled"];
+  Node11 -> Node12;
+  Node12 [label="MI0x55cd31dc1790\l  BX_RET 14, $noreg, implicit killed $r0\l  isTransient:False\l  ExeCnt:1\l  MI's addr:0x800034 cache line:524291 cache index:3\l  More Info of MI:binary_search_BB3_I1\lin UR3\l  May Load?0\l  May Store?0\l  ]\l  " fillcolor="lightblue" style="filled"];
+  Node12 -> Node0;
+  Node13 [label="MI0x55cd31dc9600\l  B %bb.1\l  isTransient:False\l  ExeCnt:1\l  MI's addr:0x80002c cache line:524290 cache index:2\l  More Info of MI:binary_search_BB2_I0\lin UR5\l  May Load?0\l  May Store?0\l  ]\l  " fillcolor="lightblue" style="filled"];
+  Node13 -> Node7;
+}

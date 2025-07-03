@@ -1,0 +1,5 @@
+# Type: Normal
+bsort_Initialize|Loop in file bsort.c near line 56|BB#1:for.cond<header><exiting>_BB#2:for.body_BB#3:for.inc<latch>|3
+bsort_return|Loop in file bsort.c near line 75|BB#1:for.cond<header><exiting>_BB#2:for.body_BB#3:land.rhs_BB#4:land.end_BB#5:for.inc<latch>|2
+bsort_BubbleSort|Loop in file bsort.c near line 98|BB#3:for.cond1<header><exiting>_BB#4:for.body3_BB#5:for.inc<latch>|2
+bsort_BubbleSort|Loop in file bsort.c near line 95|BB#1:for.cond<header><exiting>_BB#2:for.body_BB#3:for.cond1_BB#4:for.body3_BB#5:for.inc_BB#6:for.end_BB#7:for.inc8<latch>|2

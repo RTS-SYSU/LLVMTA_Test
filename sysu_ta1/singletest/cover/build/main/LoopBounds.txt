@@ -1,0 +1,10 @@
+We found the following loop bounds automatically:
+# In function cover_swi10, loop:
+  BB#1:for.cond<header><exiting>_BB#2:for.body_BB#3:for.inc<latch> with context :CSITE_main_BB0_I7:CSITE_cover_main_BB0_I10:FUNCALL_cover_swi10
+the loop header is executed at most 1 times.
+# In function cover_swi120, loop:
+  BB#1:for.cond<header><exiting>_BB#2:for.body_BB#3:for.inc<latch> with context :CSITE_main_BB0_I7:CSITE_cover_main_BB0_I20:FUNCALL_cover_swi120
+the loop header is executed at most 1 times.
+# In function cover_swi50, loop:
+  BB#1:for.cond<header><exiting>_BB#2:for.body_BB#3:for.inc<latch> with context :CSITE_main_BB0_I7:CSITE_cover_main_BB0_I15:FUNCALL_cover_swi50
+the loop header is executed at most 1 times.

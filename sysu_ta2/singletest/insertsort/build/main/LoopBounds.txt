@@ -1,0 +1,7 @@
+We found the following loop bounds automatically:
+# In function insertsort_main, loop:
+  BB#1:for.cond<header><exiting>_BB#2:for.body_BB#3:for.cond3_BB#4:for.body5_BB#5:for.inc_BB#6:for.end_BB#7:for.inc10<latch> with context :CSITE_main_BB0_I7:FUNCALL_insertsort_main
+the loop header is executed at most 9 times.
+# In function insertsort_main, loop:
+  BB#3:for.cond3<header><exiting>_BB#4:for.body5_BB#5:for.inc<latch> with context :CSITE_main_BB0_I7:FUNCALL_insertsort_main
+the loop header is executed at most 9 times.

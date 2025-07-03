@@ -1,0 +1,4 @@
+We found the following loop bounds automatically:
+# In function cosf_main, loop:
+  BB#1:for.cond<header><exiting>_BB#2:for.body_BB#3:for.inc<latch> with context :CSITE_main_BB0_I7:FUNCALL_cosf_main
+the loop header is executed at most 2 times.

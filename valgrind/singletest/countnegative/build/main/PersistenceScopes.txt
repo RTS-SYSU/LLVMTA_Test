@@ -1,0 +1,22 @@
+Starting Scopes:
+We start scope 0 in function countnegative_initialize: Loop at depth 1 containing: %bb.1<header><exiting>,%bb.2,%bb.3,%bb.4,%bb.5,%bb.6,%bb.7<latch>
+    Loop at depth 2 containing: %bb.3<header><exiting>,%bb.4,%bb.5<latch>
+ at (BB0, BB1)
+We start scope 1 in function countnegative_initialize: Loop at depth 2 containing: %bb.3<header><exiting>,%bb.4,%bb.5<latch>
+ at (BB2, BB3)
+We start scope 2 in function countnegative_sum: Loop at depth 1 containing: %bb.1<header><exiting>,%bb.2,%bb.3,%bb.4,%bb.5,%bb.6,%bb.7<latch>
+    Loop at depth 2 containing: %bb.3<header><exiting>,%bb.4,%bb.5<latch>
+ at (BB0, BB1)
+We start scope 3 in function countnegative_sum: Loop at depth 2 containing: %bb.3<header><exiting>,%bb.4,%bb.5<latch>
+ at (BB2, BB3)
+Ending Scopes:
+We end scope 0 in function countnegative_initialize: Loop at depth 1 containing: %bb.1<header><exiting>,%bb.2,%bb.3,%bb.4,%bb.5,%bb.6,%bb.7<latch>
+    Loop at depth 2 containing: %bb.3<header><exiting>,%bb.4,%bb.5<latch>
+ at (BB1, BB8)
+We end scope 1 in function countnegative_initialize: Loop at depth 2 containing: %bb.3<header><exiting>,%bb.4,%bb.5<latch>
+ at (BB3, BB6)
+We end scope 2 in function countnegative_sum: Loop at depth 1 containing: %bb.1<header><exiting>,%bb.2,%bb.3,%bb.4,%bb.5,%bb.6,%bb.7<latch>
+    Loop at depth 2 containing: %bb.3<header><exiting>,%bb.4,%bb.5<latch>
+ at (BB1, BB8)
+We end scope 3 in function countnegative_sum: Loop at depth 2 containing: %bb.3<header><exiting>,%bb.4,%bb.5<latch>
+ at (BB3, BB6)

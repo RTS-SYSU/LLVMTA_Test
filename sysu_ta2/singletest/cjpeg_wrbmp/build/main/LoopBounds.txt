@@ -1,0 +1,40 @@
+We found the following loop bounds automatically:
+# In function cjpeg_wrbmp_finish_output_bmp, loop:
+  BB#1:for.cond<header><exiting>_BB#2:for.body_BB#3:for.inc<latch> with context :CSITE_main_BB0_I7:CSITE_cjpeg_wrbmp_main_BB0_I20:FUNCALL_cjpeg_wrbmp_finish_output_bmp
+the loop header is executed at most 2 times.
+# In function cjpeg_wrbmp_finish_output_bmp, loop:
+  BB#1:for.cond<header><exiting>_BB#2:for.body_BB#3:for.inc<latch> with context :CSITE_main_BB0_I7:CSITE_cjpeg_wrbmp_main_BB0_I9:FUNCALL_cjpeg_wrbmp_finish_output_bmp
+the loop header is executed at most 2 times.
+# In function cjpeg_wrbmp_initInput, loop:
+  BB#1:for.cond<header><exiting>_BB#2:for.body_BB#3:for.cond1_BB#4:for.body3_BB#5:for.inc_BB#6:for.end_BB#7:for.inc7<latch> with context :CSITE_main_BB0_I6:CSITE_cjpeg_wrbmp_init_BB0_I6:FUNCALL_cjpeg_wrbmp_initInput
+the loop header is executed at most 2 times.
+# In function cjpeg_wrbmp_initInput, loop:
+  BB#3:for.cond1<header><exiting>_BB#4:for.body3_BB#5:for.inc<latch> with context :CSITE_main_BB0_I6:CSITE_cjpeg_wrbmp_init_BB0_I6:FUNCALL_cjpeg_wrbmp_initInput
+the loop header is executed at most 2 times.
+# In function cjpeg_wrbmp_write_colormap, loop:
+  BB#14:for.cond29<header><exiting>_BB#15:for.body32_BB#16:for.inc37<latch> with context :CSITE_main_BB0_I7:CSITE_cjpeg_wrbmp_main_BB0_I17:FUNCALL_cjpeg_wrbmp_write_colormap
+the loop header is executed at most 2 times.
+# In function cjpeg_wrbmp_write_colormap, loop:
+  BB#14:for.cond29<header><exiting>_BB#15:for.body32_BB#16:for.inc37<latch> with context :CSITE_main_BB0_I7:CSITE_cjpeg_wrbmp_main_BB0_I25:FUNCALL_cjpeg_wrbmp_write_colormap
+the loop header is executed at most 2 times.
+# In function cjpeg_wrbmp_write_colormap, loop:
+  BB#19:for.cond41<header><exiting>_BB#20:for.body44_BB#21:for.inc49<latch> with context :CSITE_main_BB0_I7:CSITE_cjpeg_wrbmp_main_BB0_I17:FUNCALL_cjpeg_wrbmp_write_colormap
+the loop header is executed at most 2 times.
+# In function cjpeg_wrbmp_write_colormap, loop:
+  BB#19:for.cond41<header><exiting>_BB#20:for.body44_BB#21:for.inc49<latch> with context :CSITE_main_BB0_I7:CSITE_cjpeg_wrbmp_main_BB0_I25:FUNCALL_cjpeg_wrbmp_write_colormap
+the loop header is executed at most 2 times.
+# In function cjpeg_wrbmp_write_colormap, loop:
+  BB#3:for.cond<header><exiting>_BB#4:for.body_BB#5:for.inc<latch> with context :CSITE_main_BB0_I7:CSITE_cjpeg_wrbmp_main_BB0_I17:FUNCALL_cjpeg_wrbmp_write_colormap
+the loop header is executed at most 2 times.
+# In function cjpeg_wrbmp_write_colormap, loop:
+  BB#3:for.cond<header><exiting>_BB#4:for.body_BB#5:for.inc<latch> with context :CSITE_main_BB0_I7:CSITE_cjpeg_wrbmp_main_BB0_I25:FUNCALL_cjpeg_wrbmp_write_colormap
+the loop header is executed at most 2 times.
+# In function cjpeg_wrbmp_write_colormap, loop:
+  BB#8:for.cond11<header><exiting>_BB#9:for.body14_BB#10:for.inc25<latch> with context :CSITE_main_BB0_I7:CSITE_cjpeg_wrbmp_main_BB0_I17:FUNCALL_cjpeg_wrbmp_write_colormap
+the loop header is executed at most 2 times.
+# In function cjpeg_wrbmp_write_colormap, loop:
+  BB#8:for.cond11<header><exiting>_BB#9:for.body14_BB#10:for.inc25<latch> with context :CSITE_main_BB0_I7:CSITE_cjpeg_wrbmp_main_BB0_I25:FUNCALL_cjpeg_wrbmp_write_colormap
+the loop header is executed at most 2 times.
+# In function memcpy, loop:
+  BB#1:for.cond<header><exiting>_BB#2:for.body_BB#3:for.inc<latch> with context :CSITE_main_BB0_I6:CSITE_cjpeg_wrbmp_init_BB0_I6:CSITE_cjpeg_wrbmp_initInput_BB0_I12:FUNCALL_memcpy
+the loop header is executed at most 768 times.

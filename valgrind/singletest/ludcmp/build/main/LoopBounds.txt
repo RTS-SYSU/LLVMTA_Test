@@ -1,0 +1,31 @@
+We found the following loop bounds automatically:
+# In function ludcmp_init, loop:
+  BB#1:for.cond<header><exiting>_BB#2:for.body_BB#3:for.cond1_BB#4:for.body3_BB#5:if.then_BB#6:if.end_BB#7:if.then14_BB#8:if.end19_BB#9:for.inc_BB#10:for.end_BB#11:if.then22_BB#12:if.end26_BB#13:for.inc27<latch> with context :CSITE_main_BB0_I6:FUNCALL_ludcmp_init
+the loop header is executed at most 2 times.
+# In function ludcmp_init, loop:
+  BB#3:for.cond1<header><exiting>_BB#4:for.body3_BB#5:if.then_BB#6:if.end_BB#7:if.then14_BB#8:if.end19_BB#9:for.inc<latch> with context :CSITE_main_BB0_I6:FUNCALL_ludcmp_init
+the loop header is executed at most 1 times.
+# In function ludcmp_return, loop:
+  BB#1:for.cond<header><exiting>_BB#2:for.body_BB#3:for.inc<latch> with context :CSITE_main_BB0_I8:FUNCALL_ludcmp_return
+the loop header is executed at most 2 times.
+# In function ludcmp_test, loop:
+  BB#12:for.cond17<header><exiting>_BB#13:for.body19_BB#14:for.cond23_BB#15:for.body25_BB#16:for.inc31_BB#17:for.end33_BB#18:for.inc37<latch> with context :CSITE_main_BB0_I7:CSITE_ludcmp_main_BB0_I8:FUNCALL_ludcmp_test
+the loop header execution count cannot be bounded.
+# In function ludcmp_test, loop:
+  BB#14:for.cond23<header><exiting>_BB#15:for.body25_BB#16:for.inc31<latch> with context :CSITE_main_BB0_I7:CSITE_ludcmp_main_BB0_I8:FUNCALL_ludcmp_test
+the loop header execution count cannot be bounded.
+# In function ludcmp_test, loop:
+  BB#22:for.cond44<header><exiting>_BB#23:for.body46_BB#24:for.cond48_BB#25:for.body50_BB#26:for.inc55_BB#27:for.end57_BB#28:for.inc59<latch> with context :CSITE_main_BB0_I7:CSITE_ludcmp_main_BB0_I8:FUNCALL_ludcmp_test
+the loop header execution count cannot be bounded.
+# In function ludcmp_test, loop:
+  BB#24:for.cond48<header><exiting>_BB#25:for.body50_BB#26:for.inc55<latch> with context :CSITE_main_BB0_I7:CSITE_ludcmp_main_BB0_I8:FUNCALL_ludcmp_test
+the loop header execution count cannot be bounded.
+# In function ludcmp_test, loop:
+  BB#30:for.cond67<header><exiting>_BB#31:for.body69_BB#32:for.cond72_BB#33:for.body74_BB#34:for.inc79_BB#35:for.end81_BB#36:for.inc86<latch> with context :CSITE_main_BB0_I7:CSITE_ludcmp_main_BB0_I8:FUNCALL_ludcmp_test
+the loop header execution count cannot be bounded.
+# In function ludcmp_test, loop:
+  BB#32:for.cond72<header><exiting>_BB#33:for.body74_BB#34:for.inc79<latch> with context :CSITE_main_BB0_I7:CSITE_ludcmp_main_BB0_I8:FUNCALL_ludcmp_test
+the loop header execution count cannot be bounded.
+# In function ludcmp_test, loop:
+  BB#8:for.cond7<header><exiting>_BB#9:for.body9_BB#10:for.inc<latch> with context :CSITE_main_BB0_I7:CSITE_ludcmp_main_BB0_I8:FUNCALL_ludcmp_test
+the loop header execution count cannot be bounded.

@@ -1,0 +1,9 @@
+# Type: Normal
+g723_enc_quan|Loop in file g723_enc.c near line 250|BB#1:for.cond<header><exiting>_BB#2:for.body_BB#3:for.inc<latch>|1
+g723_enc_predictor_zero|Loop in file g723_enc.c near line 276|BB#1:for.cond<header><exiting>_BB#2:for.body_BB#3:for.inc<latch>|1
+g723_enc_update|Loop in file g723_enc.c near line 456|BB#4:for.cond<header><exiting>_BB#5:for.body_BB#6:for.inc<latch>|1
+g723_enc_init_state|Loop in file g723_enc.c near line 641|BB#5:for.cond3<header><exiting>_BB#6:for.body5_BB#7:for.inc8<latch>|1
+g723_enc_init_state|Loop in file g723_enc.c near line 635|BB#1:for.cond<header><exiting>_BB#2:for.body_BB#3:for.inc<latch>|1
+g723_enc_init|Loop in file g723_enc.c near line 656|BB#1:for.cond<header><exiting>_BB#2:for.body_BB#3:for.inc<latch>|1
+g723_enc_return|Loop in file g723_enc.c near line 667|BB#1:for.cond<header><exiting>_BB#2:for.body_BB#3:for.inc<latch>|0
+g723_enc_main|Loop in file g723_enc.c near line 693|BB#1:for.cond<header><exiting>_BB#2:for.body_BB#3:for.inc<latch>|1

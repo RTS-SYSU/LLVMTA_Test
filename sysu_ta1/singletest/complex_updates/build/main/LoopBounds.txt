@@ -1,0 +1,13 @@
+We found the following loop bounds automatically:
+# In function complex_updates_init, loop:
+  BB#1:for.cond<header><exiting>_BB#2:for.body_BB#3:for.inc<latch> with context :CSITE_main_BB0_I6:FUNCALL_complex_updates_init
+the loop header is executed at most 1 times.
+# In function complex_updates_main, loop:
+  BB#1:for.cond<header><exiting>_BB#2:for.body_BB#3:for.inc<latch> with context :CSITE_main_BB0_I7:FUNCALL_complex_updates_main
+the loop header is executed at most 1 times.
+# In function complex_updates_pin_down, loop:
+  BB#1:for.cond<header><exiting>_BB#2:for.body_BB#3:for.inc<latch> with context :CSITE_main_BB0_I6:CSITE_complex_updates_init_BB0_I14:FUNCALL_complex_updates_pin_down
+the loop header is executed at most 1 times.
+# In function complex_updates_return, loop:
+  BB#1:for.cond<header><exiting>_BB#2:for.body_BB#3:for.inc<latch> with context :CSITE_main_BB0_I8:FUNCALL_complex_updates_return
+the loop header is executed at most 1 times.

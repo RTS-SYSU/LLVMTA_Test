@@ -1,0 +1,18 @@
+Starting Scopes:
+We start scope 0 in function jfdctint_init: Loop at depth 1 containing: %bb.1<header><exiting>,%bb.2,%bb.3<latch>
+ at (BB0, BB1)
+We start scope 1 in function jfdctint_return: Loop at depth 1 containing: %bb.1<header><exiting>,%bb.2,%bb.3<latch>
+ at (BB0, BB1)
+We start scope 3 in function jfdctint_jpeg_fdct_islow: Loop at depth 1 containing: %bb.1<header><exiting>,%bb.2,%bb.3<latch>
+ at (BB0, BB1)
+We start scope 2 in function jfdctint_jpeg_fdct_islow: Loop at depth 1 containing: %bb.5<header><exiting>,%bb.6,%bb.7<latch>
+ at (BB4, BB5)
+Ending Scopes:
+We end scope 0 in function jfdctint_init: Loop at depth 1 containing: %bb.1<header><exiting>,%bb.2,%bb.3<latch>
+ at (BB1, BB4)
+We end scope 1 in function jfdctint_return: Loop at depth 1 containing: %bb.1<header><exiting>,%bb.2,%bb.3<latch>
+ at (BB1, BB4)
+We end scope 3 in function jfdctint_jpeg_fdct_islow: Loop at depth 1 containing: %bb.1<header><exiting>,%bb.2,%bb.3<latch>
+ at (BB1, BB4)
+We end scope 2 in function jfdctint_jpeg_fdct_islow: Loop at depth 1 containing: %bb.5<header><exiting>,%bb.6,%bb.7<latch>
+ at (BB5, BB8)

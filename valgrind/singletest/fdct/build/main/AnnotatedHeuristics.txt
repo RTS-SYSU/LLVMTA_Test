@@ -1,0 +1,389 @@
+##################################
+## Directives Machine Functions ##
+##################################
+Before fdct_fdct, Directive of Type CREATE for the following tokens:{
+	Call of function fdct_fdct}
+Before main, Directive of Type CREATE for the following tokens:{
+	Call of function main}
+Before __absvdi2, Directive of Type CREATE for the following tokens:{
+	Call of function __absvdi2}
+Before compilerrt_abort_impl, Directive of Type CREATE for the following tokens:{
+	Call of function compilerrt_abort_impl}
+Before __absvsi2, Directive of Type CREATE for the following tokens:{
+	Call of function __absvsi2}
+Before __addvdi3, Directive of Type CREATE for the following tokens:{
+	Call of function __addvdi3}
+Before __addvsi3, Directive of Type CREATE for the following tokens:{
+	Call of function __addvsi3}
+Before __ashldi3, Directive of Type CREATE for the following tokens:{
+	Call of function __ashldi3}
+Before __ashrdi3, Directive of Type CREATE for the following tokens:{
+	Call of function __ashrdi3}
+Before __clzdi2, Directive of Type CREATE for the following tokens:{
+	Call of function __clzdi2}
+Before __clzsi2, Directive of Type CREATE for the following tokens:{
+	Call of function __clzsi2}
+Before __cmpdi2, Directive of Type CREATE for the following tokens:{
+	Call of function __cmpdi2}
+Before __aeabi_lcmp, Directive of Type CREATE for the following tokens:{
+	Call of function __aeabi_lcmp}
+Before __ctzdi2, Directive of Type CREATE for the following tokens:{
+	Call of function __ctzdi2}
+Before __ctzsi2, Directive of Type CREATE for the following tokens:{
+	Call of function __ctzsi2}
+Before __divdi3, Directive of Type CREATE for the following tokens:{
+	Call of function __divdi3}
+Before __udivmoddi4, Directive of Type CREATE for the following tokens:{
+	Call of function __udivmoddi4}
+Before __divmoddi4, Directive of Type CREATE for the following tokens:{
+	Call of function __divmoddi4}
+Before __divmodsi4, Directive of Type CREATE for the following tokens:{
+	Call of function __divmodsi4}
+Before __divsi3, Directive of Type CREATE for the following tokens:{
+	Call of function __divsi3}
+Before __ffsdi2, Directive of Type CREATE for the following tokens:{
+	Call of function __ffsdi2}
+Before __ffssi2, Directive of Type CREATE for the following tokens:{
+	Call of function __ffssi2}
+Before __lshrdi3, Directive of Type CREATE for the following tokens:{
+	Call of function __lshrdi3}
+Before __moddi3, Directive of Type CREATE for the following tokens:{
+	Call of function __moddi3}
+Before __modsi3, Directive of Type CREATE for the following tokens:{
+	Call of function __modsi3}
+Before __mulvdi3, Directive of Type CREATE for the following tokens:{
+	Call of function __mulvdi3}
+Before __mulvsi3, Directive of Type CREATE for the following tokens:{
+	Call of function __mulvsi3}
+Before __paritydi2, Directive of Type CREATE for the following tokens:{
+	Call of function __paritydi2}
+Before __paritysi2, Directive of Type CREATE for the following tokens:{
+	Call of function __paritysi2}
+Before __popcountdi2, Directive of Type CREATE for the following tokens:{
+	Call of function __popcountdi2}
+Before __popcountsi2, Directive of Type CREATE for the following tokens:{
+	Call of function __popcountsi2}
+Before __subvdi3, Directive of Type CREATE for the following tokens:{
+	Call of function __subvdi3}
+Before __subvsi3, Directive of Type CREATE for the following tokens:{
+	Call of function __subvsi3}
+Before __ucmpdi2, Directive of Type CREATE for the following tokens:{
+	Call of function __ucmpdi2}
+Before __aeabi_ulcmp, Directive of Type CREATE for the following tokens:{
+	Call of function __aeabi_ulcmp}
+Before __udivdi3, Directive of Type CREATE for the following tokens:{
+	Call of function __udivdi3}
+Before __udivmodsi4, Directive of Type CREATE for the following tokens:{
+	Call of function __udivmodsi4}
+Before __udivsi3, Directive of Type CREATE for the following tokens:{
+	Call of function __udivsi3}
+Before __umoddi3, Directive of Type CREATE for the following tokens:{
+	Call of function __umoddi3}
+Before __umodsi3, Directive of Type CREATE for the following tokens:{
+	Call of function __umodsi3}
+Before memcpy, Directive of Type CREATE for the following tokens:{
+	Call of function memcpy}
+Before memset, Directive of Type CREATE for the following tokens:{
+	Call of function memset}
+After fdct_fdct, Directive of Type MERGE for the following tokens:{
+	Call of function fdct_fdct}
+After main, Directive of Type MERGE for the following tokens:{
+	Call of function main}
+After __absvdi2, Directive of Type MERGE for the following tokens:{
+	Call of function __absvdi2}
+After compilerrt_abort_impl, Directive of Type MERGE for the following tokens:{
+	Call of function compilerrt_abort_impl}
+After __absvsi2, Directive of Type MERGE for the following tokens:{
+	Call of function __absvsi2}
+After __addvdi3, Directive of Type MERGE for the following tokens:{
+	Call of function __addvdi3}
+After __addvsi3, Directive of Type MERGE for the following tokens:{
+	Call of function __addvsi3}
+After __ashldi3, Directive of Type MERGE for the following tokens:{
+	Call of function __ashldi3}
+After __ashrdi3, Directive of Type MERGE for the following tokens:{
+	Call of function __ashrdi3}
+After __clzdi2, Directive of Type MERGE for the following tokens:{
+	Call of function __clzdi2}
+After __clzsi2, Directive of Type MERGE for the following tokens:{
+	Call of function __clzsi2}
+After __cmpdi2, Directive of Type MERGE for the following tokens:{
+	Call of function __cmpdi2}
+After __aeabi_lcmp, Directive of Type MERGE for the following tokens:{
+	Call of function __aeabi_lcmp}
+After __ctzdi2, Directive of Type MERGE for the following tokens:{
+	Call of function __ctzdi2}
+After __ctzsi2, Directive of Type MERGE for the following tokens:{
+	Call of function __ctzsi2}
+After __divdi3, Directive of Type MERGE for the following tokens:{
+	Call of function __divdi3}
+After __udivmoddi4, Directive of Type MERGE for the following tokens:{
+	Call of function __udivmoddi4}
+After __divmoddi4, Directive of Type MERGE for the following tokens:{
+	Call of function __divmoddi4}
+After __divmodsi4, Directive of Type MERGE for the following tokens:{
+	Call of function __divmodsi4}
+After __divsi3, Directive of Type MERGE for the following tokens:{
+	Call of function __divsi3}
+After __ffsdi2, Directive of Type MERGE for the following tokens:{
+	Call of function __ffsdi2}
+After __ffssi2, Directive of Type MERGE for the following tokens:{
+	Call of function __ffssi2}
+After __lshrdi3, Directive of Type MERGE for the following tokens:{
+	Call of function __lshrdi3}
+After __moddi3, Directive of Type MERGE for the following tokens:{
+	Call of function __moddi3}
+After __modsi3, Directive of Type MERGE for the following tokens:{
+	Call of function __modsi3}
+After __mulvdi3, Directive of Type MERGE for the following tokens:{
+	Call of function __mulvdi3}
+After __mulvsi3, Directive of Type MERGE for the following tokens:{
+	Call of function __mulvsi3}
+After __paritydi2, Directive of Type MERGE for the following tokens:{
+	Call of function __paritydi2}
+After __paritysi2, Directive of Type MERGE for the following tokens:{
+	Call of function __paritysi2}
+After __popcountdi2, Directive of Type MERGE for the following tokens:{
+	Call of function __popcountdi2}
+After __popcountsi2, Directive of Type MERGE for the following tokens:{
+	Call of function __popcountsi2}
+After __subvdi3, Directive of Type MERGE for the following tokens:{
+	Call of function __subvdi3}
+After __subvsi3, Directive of Type MERGE for the following tokens:{
+	Call of function __subvsi3}
+After __ucmpdi2, Directive of Type MERGE for the following tokens:{
+	Call of function __ucmpdi2}
+After __aeabi_ulcmp, Directive of Type MERGE for the following tokens:{
+	Call of function __aeabi_ulcmp}
+After __udivdi3, Directive of Type MERGE for the following tokens:{
+	Call of function __udivdi3}
+After __udivmodsi4, Directive of Type MERGE for the following tokens:{
+	Call of function __udivmodsi4}
+After __udivsi3, Directive of Type MERGE for the following tokens:{
+	Call of function __udivsi3}
+After __umoddi3, Directive of Type MERGE for the following tokens:{
+	Call of function __umoddi3}
+After __umodsi3, Directive of Type MERGE for the following tokens:{
+	Call of function __umodsi3}
+After memcpy, Directive of Type MERGE for the following tokens:{
+	Call of function memcpy}
+After memset, Directive of Type MERGE for the following tokens:{
+	Call of function memset}
+#############################
+## Directives Basic Blocks ##
+#############################
+Enter (fdct_fdct_BB1, fdct_fdct_BB4), [Directive of Type MERGE for the following tokens:{
+	Loop Iteration: Backedges {(BB3, BB1)} in function fdct_fdct taken at least 1 times,
+	Loop Peeling: Backedges {(BB3, BB1)} in function fdct_fdct taken 0 times}]
+Enter (fdct_fdct_BB5, fdct_fdct_BB8), [Directive of Type MERGE for the following tokens:{
+	Loop Iteration: Backedges {(BB7, BB5)} in function fdct_fdct taken at least 1 times,
+	Loop Peeling: Backedges {(BB7, BB5)} in function fdct_fdct taken 0 times}]
+Enter (__udivmoddi4_BB50, __udivmoddi4_BB53), [Directive of Type MERGE for the following tokens:{
+	Loop Iteration: Backedges {(BB52, BB50)} in function __udivmoddi4 taken at least 1 times,
+	Loop Peeling: Backedges {(BB52, BB50)} in function __udivmoddi4 taken 0 times}]
+Enter (__udivsi3_BB9, __udivsi3_BB12), [Directive of Type MERGE for the following tokens:{
+	Loop Iteration: Backedges {(BB11, BB9)} in function __udivsi3 taken at least 1 times,
+	Loop Peeling: Backedges {(BB11, BB9)} in function __udivsi3 taken 0 times}]
+Enter (memcpy_BB1, memcpy_BB4), [Directive of Type MERGE for the following tokens:{
+	Loop Iteration: Backedges {(BB3, BB1)} in function memcpy taken at least 1 times,
+	Loop Peeling: Backedges {(BB3, BB1)} in function memcpy taken 0 times}]
+Enter (memset_BB1, memset_BB4), [Directive of Type MERGE for the following tokens:{
+	Loop Iteration: Backedges {(BB3, BB1)} in function memset taken at least 1 times,
+	Loop Peeling: Backedges {(BB3, BB1)} in function memset taken 0 times}]
+Leave (fdct_fdct_BB0, fdct_fdct_BB1), [Directive of Type CREATE for the following tokens:{
+	Loop Iteration: Backedges {(BB3, BB1)} in function fdct_fdct taken at least 1 times,
+	Loop Peeling: Backedges {(BB3, BB1)} in function fdct_fdct taken 0 times}]
+Leave (fdct_fdct_BB4, fdct_fdct_BB5), [Directive of Type CREATE for the following tokens:{
+	Loop Iteration: Backedges {(BB7, BB5)} in function fdct_fdct taken at least 1 times,
+	Loop Peeling: Backedges {(BB7, BB5)} in function fdct_fdct taken 0 times}]
+Leave (__udivmoddi4_BB49, __udivmoddi4_BB50), [Directive of Type CREATE for the following tokens:{
+	Loop Iteration: Backedges {(BB52, BB50)} in function __udivmoddi4 taken at least 1 times,
+	Loop Peeling: Backedges {(BB52, BB50)} in function __udivmoddi4 taken 0 times}]
+Leave (__udivsi3_BB8, __udivsi3_BB9), [Directive of Type CREATE for the following tokens:{
+	Loop Iteration: Backedges {(BB11, BB9)} in function __udivsi3 taken at least 1 times,
+	Loop Peeling: Backedges {(BB11, BB9)} in function __udivsi3 taken 0 times}]
+Leave (memcpy_BB0, memcpy_BB1), [Directive of Type CREATE for the following tokens:{
+	Loop Iteration: Backedges {(BB3, BB1)} in function memcpy taken at least 1 times,
+	Loop Peeling: Backedges {(BB3, BB1)} in function memcpy taken 0 times}]
+Leave (memset_BB0, memset_BB1), [Directive of Type CREATE for the following tokens:{
+	Loop Iteration: Backedges {(BB3, BB1)} in function memset taken at least 1 times,
+	Loop Peeling: Backedges {(BB3, BB1)} in function memset taken 0 times}]
+#############################
+## Directives Instructions ##
+#############################
+Before main_BB0_I10, Directive of Type CREATE for the following tokens:{
+	Function call at location main_BB0_I10}
+Before __absvdi2_BB1_I3, Directive of Type CREATE for the following tokens:{
+	Function call at location __absvdi2_BB1_I3}
+Before __absvsi2_BB1_I3, Directive of Type CREATE for the following tokens:{
+	Function call at location __absvsi2_BB1_I3}
+Before __addvdi3_BB2_I3, Directive of Type CREATE for the following tokens:{
+	Function call at location __addvdi3_BB2_I3}
+Before __addvdi3_BB5_I3, Directive of Type CREATE for the following tokens:{
+	Function call at location __addvdi3_BB5_I3}
+Before __addvsi3_BB2_I3, Directive of Type CREATE for the following tokens:{
+	Function call at location __addvsi3_BB2_I3}
+Before __addvsi3_BB5_I3, Directive of Type CREATE for the following tokens:{
+	Function call at location __addvsi3_BB5_I3}
+Before __aeabi_lcmp_BB0_I10, Directive of Type CREATE for the following tokens:{
+	Function call at location __aeabi_lcmp_BB0_I10}
+Before __divdi3_BB0_I27, Directive of Type CREATE for the following tokens:{
+	Function call at location __divdi3_BB0_I27}
+Before __udivmoddi4_BB3_I2, Directive of Type CREATE for the following tokens:{
+	Function call at location __udivmoddi4_BB3_I2}
+Before __udivmoddi4_BB4_I2, Directive of Type CREATE for the following tokens:{
+	Function call at location __udivmoddi4_BB4_I2}
+Before __udivmoddi4_BB11_I2, Directive of Type CREATE for the following tokens:{
+	Function call at location __udivmoddi4_BB11_I2}
+Before __udivmoddi4_BB12_I2, Directive of Type CREATE for the following tokens:{
+	Function call at location __udivmoddi4_BB12_I2}
+Before __udivmoddi4_BB15_I2, Directive of Type CREATE for the following tokens:{
+	Function call at location __udivmoddi4_BB15_I2}
+Before __udivmoddi4_BB16_I2, Directive of Type CREATE for the following tokens:{
+	Function call at location __udivmoddi4_BB16_I2}
+Before __divmoddi4_BB0_I22, Directive of Type CREATE for the following tokens:{
+	Function call at location __divmoddi4_BB0_I22}
+Before __divmodsi4_BB0_I10, Directive of Type CREATE for the following tokens:{
+	Function call at location __divmodsi4_BB0_I10}
+Before __divsi3_BB0_I16, Directive of Type CREATE for the following tokens:{
+	Function call at location __divsi3_BB0_I16}
+Before __moddi3_BB0_I24, Directive of Type CREATE for the following tokens:{
+	Function call at location __moddi3_BB0_I24}
+Before __modsi3_BB0_I9, Directive of Type CREATE for the following tokens:{
+	Function call at location __modsi3_BB0_I9}
+Before __mulvdi3_BB4_I3, Directive of Type CREATE for the following tokens:{
+	Function call at location __mulvdi3_BB4_I3}
+Before __mulvdi3_BB9_I3, Directive of Type CREATE for the following tokens:{
+	Function call at location __mulvdi3_BB9_I3}
+Before __mulvdi3_BB14_I4, Directive of Type CREATE for the following tokens:{
+	Function call at location __mulvdi3_BB14_I4}
+Before __mulvdi3_BB15_I3, Directive of Type CREATE for the following tokens:{
+	Function call at location __mulvdi3_BB15_I3}
+Before __mulvdi3_BB17_I6, Directive of Type CREATE for the following tokens:{
+	Function call at location __mulvdi3_BB17_I6}
+Before __mulvdi3_BB18_I3, Directive of Type CREATE for the following tokens:{
+	Function call at location __mulvdi3_BB18_I3}
+Before __mulvsi3_BB4_I3, Directive of Type CREATE for the following tokens:{
+	Function call at location __mulvsi3_BB4_I3}
+Before __mulvsi3_BB9_I3, Directive of Type CREATE for the following tokens:{
+	Function call at location __mulvsi3_BB9_I3}
+Before __mulvsi3_BB14_I2, Directive of Type CREATE for the following tokens:{
+	Function call at location __mulvsi3_BB14_I2}
+Before __mulvsi3_BB15_I3, Directive of Type CREATE for the following tokens:{
+	Function call at location __mulvsi3_BB15_I3}
+Before __mulvsi3_BB17_I3, Directive of Type CREATE for the following tokens:{
+	Function call at location __mulvsi3_BB17_I3}
+Before __mulvsi3_BB18_I3, Directive of Type CREATE for the following tokens:{
+	Function call at location __mulvsi3_BB18_I3}
+Before __paritydi2_BB0_I14, Directive of Type CREATE for the following tokens:{
+	Function call at location __paritydi2_BB0_I14}
+Before __subvdi3_BB2_I3, Directive of Type CREATE for the following tokens:{
+	Function call at location __subvdi3_BB2_I3}
+Before __subvdi3_BB5_I3, Directive of Type CREATE for the following tokens:{
+	Function call at location __subvdi3_BB5_I3}
+Before __subvsi3_BB2_I3, Directive of Type CREATE for the following tokens:{
+	Function call at location __subvsi3_BB2_I3}
+Before __subvsi3_BB5_I3, Directive of Type CREATE for the following tokens:{
+	Function call at location __subvsi3_BB5_I3}
+Before __aeabi_ulcmp_BB0_I10, Directive of Type CREATE for the following tokens:{
+	Function call at location __aeabi_ulcmp_BB0_I10}
+Before __udivdi3_BB0_I14, Directive of Type CREATE for the following tokens:{
+	Function call at location __udivdi3_BB0_I14}
+Before __udivmodsi4_BB0_I10, Directive of Type CREATE for the following tokens:{
+	Function call at location __udivmodsi4_BB0_I10}
+Before __udivsi3_BB4_I1, Directive of Type CREATE for the following tokens:{
+	Function call at location __udivsi3_BB4_I1}
+Before __udivsi3_BB4_I5, Directive of Type CREATE for the following tokens:{
+	Function call at location __udivsi3_BB4_I5}
+Before __umoddi3_BB0_I14, Directive of Type CREATE for the following tokens:{
+	Function call at location __umoddi3_BB0_I14}
+Before __umodsi3_BB0_I9, Directive of Type CREATE for the following tokens:{
+	Function call at location __umodsi3_BB0_I9}
+After main_BB0_I10, Directive of Type MERGE for the following tokens:{
+	Function call at location main_BB0_I10}
+After __absvdi2_BB1_I3, Directive of Type MERGE for the following tokens:{
+	Function call at location __absvdi2_BB1_I3}
+After __absvsi2_BB1_I3, Directive of Type MERGE for the following tokens:{
+	Function call at location __absvsi2_BB1_I3}
+After __addvdi3_BB2_I3, Directive of Type MERGE for the following tokens:{
+	Function call at location __addvdi3_BB2_I3}
+After __addvdi3_BB5_I3, Directive of Type MERGE for the following tokens:{
+	Function call at location __addvdi3_BB5_I3}
+After __addvsi3_BB2_I3, Directive of Type MERGE for the following tokens:{
+	Function call at location __addvsi3_BB2_I3}
+After __addvsi3_BB5_I3, Directive of Type MERGE for the following tokens:{
+	Function call at location __addvsi3_BB5_I3}
+After __aeabi_lcmp_BB0_I10, Directive of Type MERGE for the following tokens:{
+	Function call at location __aeabi_lcmp_BB0_I10}
+After __divdi3_BB0_I27, Directive of Type MERGE for the following tokens:{
+	Function call at location __divdi3_BB0_I27}
+After __udivmoddi4_BB3_I2, Directive of Type MERGE for the following tokens:{
+	Function call at location __udivmoddi4_BB3_I2}
+After __udivmoddi4_BB4_I2, Directive of Type MERGE for the following tokens:{
+	Function call at location __udivmoddi4_BB4_I2}
+After __udivmoddi4_BB11_I2, Directive of Type MERGE for the following tokens:{
+	Function call at location __udivmoddi4_BB11_I2}
+After __udivmoddi4_BB12_I2, Directive of Type MERGE for the following tokens:{
+	Function call at location __udivmoddi4_BB12_I2}
+After __udivmoddi4_BB15_I2, Directive of Type MERGE for the following tokens:{
+	Function call at location __udivmoddi4_BB15_I2}
+After __udivmoddi4_BB16_I2, Directive of Type MERGE for the following tokens:{
+	Function call at location __udivmoddi4_BB16_I2}
+After __divmoddi4_BB0_I22, Directive of Type MERGE for the following tokens:{
+	Function call at location __divmoddi4_BB0_I22}
+After __divmodsi4_BB0_I10, Directive of Type MERGE for the following tokens:{
+	Function call at location __divmodsi4_BB0_I10}
+After __divsi3_BB0_I16, Directive of Type MERGE for the following tokens:{
+	Function call at location __divsi3_BB0_I16}
+After __moddi3_BB0_I24, Directive of Type MERGE for the following tokens:{
+	Function call at location __moddi3_BB0_I24}
+After __modsi3_BB0_I9, Directive of Type MERGE for the following tokens:{
+	Function call at location __modsi3_BB0_I9}
+After __mulvdi3_BB4_I3, Directive of Type MERGE for the following tokens:{
+	Function call at location __mulvdi3_BB4_I3}
+After __mulvdi3_BB9_I3, Directive of Type MERGE for the following tokens:{
+	Function call at location __mulvdi3_BB9_I3}
+After __mulvdi3_BB14_I4, Directive of Type MERGE for the following tokens:{
+	Function call at location __mulvdi3_BB14_I4}
+After __mulvdi3_BB15_I3, Directive of Type MERGE for the following tokens:{
+	Function call at location __mulvdi3_BB15_I3}
+After __mulvdi3_BB17_I6, Directive of Type MERGE for the following tokens:{
+	Function call at location __mulvdi3_BB17_I6}
+After __mulvdi3_BB18_I3, Directive of Type MERGE for the following tokens:{
+	Function call at location __mulvdi3_BB18_I3}
+After __mulvsi3_BB4_I3, Directive of Type MERGE for the following tokens:{
+	Function call at location __mulvsi3_BB4_I3}
+After __mulvsi3_BB9_I3, Directive of Type MERGE for the following tokens:{
+	Function call at location __mulvsi3_BB9_I3}
+After __mulvsi3_BB14_I2, Directive of Type MERGE for the following tokens:{
+	Function call at location __mulvsi3_BB14_I2}
+After __mulvsi3_BB15_I3, Directive of Type MERGE for the following tokens:{
+	Function call at location __mulvsi3_BB15_I3}
+After __mulvsi3_BB17_I3, Directive of Type MERGE for the following tokens:{
+	Function call at location __mulvsi3_BB17_I3}
+After __mulvsi3_BB18_I3, Directive of Type MERGE for the following tokens:{
+	Function call at location __mulvsi3_BB18_I3}
+After __paritydi2_BB0_I14, Directive of Type MERGE for the following tokens:{
+	Function call at location __paritydi2_BB0_I14}
+After __subvdi3_BB2_I3, Directive of Type MERGE for the following tokens:{
+	Function call at location __subvdi3_BB2_I3}
+After __subvdi3_BB5_I3, Directive of Type MERGE for the following tokens:{
+	Function call at location __subvdi3_BB5_I3}
+After __subvsi3_BB2_I3, Directive of Type MERGE for the following tokens:{
+	Function call at location __subvsi3_BB2_I3}
+After __subvsi3_BB5_I3, Directive of Type MERGE for the following tokens:{
+	Function call at location __subvsi3_BB5_I3}
+After __aeabi_ulcmp_BB0_I10, Directive of Type MERGE for the following tokens:{
+	Function call at location __aeabi_ulcmp_BB0_I10}
+After __udivdi3_BB0_I14, Directive of Type MERGE for the following tokens:{
+	Function call at location __udivdi3_BB0_I14}
+After __udivmodsi4_BB0_I10, Directive of Type MERGE for the following tokens:{
+	Function call at location __udivmodsi4_BB0_I10}
+After __udivsi3_BB4_I1, Directive of Type MERGE for the following tokens:{
+	Function call at location __udivsi3_BB4_I1}
+After __udivsi3_BB4_I5, Directive of Type MERGE for the following tokens:{
+	Function call at location __udivsi3_BB4_I5}
+After __umoddi3_BB0_I14, Directive of Type MERGE for the following tokens:{
+	Function call at location __umoddi3_BB0_I14}
+After __umodsi3_BB0_I9, Directive of Type MERGE for the following tokens:{
+	Function call at location __umodsi3_BB0_I9}

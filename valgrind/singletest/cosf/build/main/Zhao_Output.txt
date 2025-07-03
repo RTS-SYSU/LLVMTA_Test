@@ -1,0 +1,3 @@
+main__CEOP_1 have 78 instructions
+main__CEOP_2 have 78 instructions
+main_MAX_CEOP_: 78

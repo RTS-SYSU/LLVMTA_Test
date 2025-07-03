@@ -1,0 +1,13 @@
+EntryPoint: main with 12CEOPs
+  CEOP-0 have 174 UR(s)
+  CEOP-1 have 171 UR(s)
+  CEOP-2 have 164 UR(s)
+  CEOP-3 have 126 UR(s)
+  CEOP-4 have 171 UR(s)
+  CEOP-5 have 168 UR(s)
+  CEOP-6 have 161 UR(s)
+  CEOP-7 have 123 UR(s)
+  CEOP-8 have 164 UR(s)
+  CEOP-9 have 161 UR(s)
+  CEOP-10 have 154 UR(s)
+  CEOP-11 have 116 UR(s)

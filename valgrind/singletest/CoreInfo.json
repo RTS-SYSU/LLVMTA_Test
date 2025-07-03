@@ -1,0 +1,19 @@
+[
+    {
+        "core": 0,
+        "tasks": [
+            {
+                "function": "loop"
+            }
+        ]
+    },
+    {
+        "core": 1,
+        "tasks": [
+            {
+                "function": "fdct"
+            }
+        ]
+
+    }
+]

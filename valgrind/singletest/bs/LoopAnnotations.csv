@@ -1,0 +1,2 @@
+# Type: Normal
+binary_search|Loop in file bsc near line 66|BB#1:while.cond<header><exiting>_BB#2:while.body<latch>|1

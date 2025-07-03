@@ -1,0 +1,13 @@
+main__CEOP_1 have 174 instructions
+main__CEOP_2 have 171 instructions
+main__CEOP_3 have 164 instructions
+main__CEOP_4 have 126 instructions
+main__CEOP_5 have 171 instructions
+main__CEOP_6 have 168 instructions
+main__CEOP_7 have 161 instructions
+main__CEOP_8 have 123 instructions
+main__CEOP_9 have 164 instructions
+main__CEOP_10 have 161 instructions
+main__CEOP_11 have 154 instructions
+main__CEOP_12 have 116 instructions
+main_MAX_CEOP_: 174

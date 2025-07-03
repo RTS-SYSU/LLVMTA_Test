@@ -1,0 +1,20 @@
+main__CEOP_1 have 815 instructions
+main__CEOP_2 have 821 instructions
+main__CEOP_3 have 821 instructions
+main_MAX_CEOP_: 821
+/workspaces/llvmta/testcases/batchtest/binarysearch
+main__CEOP_1 have 815 instructions
+main__CEOP_2 have 821 instructions
+main__CEOP_3 have 821 instructions
+main_MAX_CEOP_: 821
+--------------------------------------------------------------
+/workspaces/llvmta/testcases/batchtest/binarysearch
+main__CEOP_1 have 815 instructions
+main__CEOP_2 have 821 instructions
+main__CEOP_3 have 821 instructions
+main_MAX_CEOP_: 821
+--------------------------------------------------------------
+/workspaces/llvmta/testcases/batchtest/binarysearch
+main__CEOP_1 have 1032 instructions
+main_MAX_CEOP_: 1032
+--------------------------------------------------------------

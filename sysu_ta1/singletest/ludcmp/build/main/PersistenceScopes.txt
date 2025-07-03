@@ -1,0 +1,65 @@
+Starting Scopes:
+We start scope 0 in function ludcmp_init: Loop at depth 1 containing: %bb.1<header><exiting>,%bb.2,%bb.3,%bb.4,%bb.5,%bb.6,%bb.7,%bb.8,%bb.9,%bb.10,%bb.11,%bb.12,%bb.13<latch>
+    Loop at depth 2 containing: %bb.3<header><exiting>,%bb.4,%bb.5,%bb.6,%bb.7,%bb.8,%bb.9<latch>
+ at (BB0, BB1)
+We start scope 1 in function ludcmp_init: Loop at depth 2 containing: %bb.3<header><exiting>,%bb.4,%bb.5,%bb.6,%bb.7,%bb.8,%bb.9<latch>
+ at (BB2, BB3)
+We start scope 2 in function ludcmp_return: Loop at depth 1 containing: %bb.1<header><exiting>,%bb.2,%bb.3<latch>
+ at (BB0, BB1)
+We start scope 7 in function ludcmp_test: Loop at depth 1 containing: %bb.4<header><exiting>,%bb.5<exiting>,%bb.7,%bb.8,%bb.9,%bb.10,%bb.11,%bb.12,%bb.13,%bb.14,%bb.15,%bb.16,%bb.17,%bb.18,%bb.19,%bb.20<latch>
+    Loop at depth 2 containing: %bb.8<header><exiting>,%bb.9,%bb.10<latch>
+    Loop at depth 2 containing: %bb.12<header><exiting>,%bb.13,%bb.14,%bb.15,%bb.16,%bb.17,%bb.18<latch>
+        Loop at depth 3 containing: %bb.14<header><exiting>,%bb.15,%bb.16<latch>
+ at (BB3, BB4)
+We start scope 8 in function ludcmp_test: Loop at depth 2 containing: %bb.8<header><exiting>,%bb.9,%bb.10<latch>
+ at (BB7, BB8)
+We start scope 9 in function ludcmp_test: Loop at depth 2 containing: %bb.12<header><exiting>,%bb.13,%bb.14,%bb.15,%bb.16,%bb.17,%bb.18<latch>
+    Loop at depth 3 containing: %bb.14<header><exiting>,%bb.15,%bb.16<latch>
+ at (BB11, BB12)
+We start scope 10 in function ludcmp_test: Loop at depth 3 containing: %bb.14<header><exiting>,%bb.15,%bb.16<latch>
+ at (BB13, BB14)
+We start scope 5 in function ludcmp_test: Loop at depth 1 containing: %bb.22<header><exiting>,%bb.23,%bb.24,%bb.25,%bb.26,%bb.27,%bb.28<latch>
+    Loop at depth 2 containing: %bb.24<header><exiting>,%bb.25,%bb.26<latch>
+ at (BB21, BB22)
+We start scope 6 in function ludcmp_test: Loop at depth 2 containing: %bb.24<header><exiting>,%bb.25,%bb.26<latch>
+ at (BB23, BB24)
+We start scope 3 in function ludcmp_test: Loop at depth 1 containing: %bb.30<header><exiting>,%bb.31,%bb.32,%bb.33,%bb.34,%bb.35,%bb.36<latch>
+    Loop at depth 2 containing: %bb.32<header><exiting>,%bb.33,%bb.34<latch>
+ at (BB29, BB30)
+We start scope 4 in function ludcmp_test: Loop at depth 2 containing: %bb.32<header><exiting>,%bb.33,%bb.34<latch>
+ at (BB31, BB32)
+Ending Scopes:
+We end scope 0 in function ludcmp_init: Loop at depth 1 containing: %bb.1<header><exiting>,%bb.2,%bb.3,%bb.4,%bb.5,%bb.6,%bb.7,%bb.8,%bb.9,%bb.10,%bb.11,%bb.12,%bb.13<latch>
+    Loop at depth 2 containing: %bb.3<header><exiting>,%bb.4,%bb.5,%bb.6,%bb.7,%bb.8,%bb.9<latch>
+ at (BB1, BB14)
+We end scope 1 in function ludcmp_init: Loop at depth 2 containing: %bb.3<header><exiting>,%bb.4,%bb.5,%bb.6,%bb.7,%bb.8,%bb.9<latch>
+ at (BB3, BB10)
+We end scope 2 in function ludcmp_return: Loop at depth 1 containing: %bb.1<header><exiting>,%bb.2,%bb.3<latch>
+ at (BB1, BB4)
+We end scope 7 in function ludcmp_test: Loop at depth 1 containing: %bb.4<header><exiting>,%bb.5<exiting>,%bb.7,%bb.8,%bb.9,%bb.10,%bb.11,%bb.12,%bb.13,%bb.14,%bb.15,%bb.16,%bb.17,%bb.18,%bb.19,%bb.20<latch>
+    Loop at depth 2 containing: %bb.8<header><exiting>,%bb.9,%bb.10<latch>
+    Loop at depth 2 containing: %bb.12<header><exiting>,%bb.13,%bb.14,%bb.15,%bb.16,%bb.17,%bb.18<latch>
+        Loop at depth 3 containing: %bb.14<header><exiting>,%bb.15,%bb.16<latch>
+ at (BB4, BB21)
+We end scope 7 in function ludcmp_test: Loop at depth 1 containing: %bb.4<header><exiting>,%bb.5<exiting>,%bb.7,%bb.8,%bb.9,%bb.10,%bb.11,%bb.12,%bb.13,%bb.14,%bb.15,%bb.16,%bb.17,%bb.18,%bb.19,%bb.20<latch>
+    Loop at depth 2 containing: %bb.8<header><exiting>,%bb.9,%bb.10<latch>
+    Loop at depth 2 containing: %bb.12<header><exiting>,%bb.13,%bb.14,%bb.15,%bb.16,%bb.17,%bb.18<latch>
+        Loop at depth 3 containing: %bb.14<header><exiting>,%bb.15,%bb.16<latch>
+ at (BB5, BB6)
+We end scope 8 in function ludcmp_test: Loop at depth 2 containing: %bb.8<header><exiting>,%bb.9,%bb.10<latch>
+ at (BB8, BB11)
+We end scope 9 in function ludcmp_test: Loop at depth 2 containing: %bb.12<header><exiting>,%bb.13,%bb.14,%bb.15,%bb.16,%bb.17,%bb.18<latch>
+    Loop at depth 3 containing: %bb.14<header><exiting>,%bb.15,%bb.16<latch>
+ at (BB12, BB19)
+We end scope 10 in function ludcmp_test: Loop at depth 3 containing: %bb.14<header><exiting>,%bb.15,%bb.16<latch>
+ at (BB14, BB17)
+We end scope 5 in function ludcmp_test: Loop at depth 1 containing: %bb.22<header><exiting>,%bb.23,%bb.24,%bb.25,%bb.26,%bb.27,%bb.28<latch>
+    Loop at depth 2 containing: %bb.24<header><exiting>,%bb.25,%bb.26<latch>
+ at (BB22, BB29)
+We end scope 6 in function ludcmp_test: Loop at depth 2 containing: %bb.24<header><exiting>,%bb.25,%bb.26<latch>
+ at (BB24, BB27)
+We end scope 3 in function ludcmp_test: Loop at depth 1 containing: %bb.30<header><exiting>,%bb.31,%bb.32,%bb.33,%bb.34,%bb.35,%bb.36<latch>
+    Loop at depth 2 containing: %bb.32<header><exiting>,%bb.33,%bb.34<latch>
+ at (BB30, BB37)
+We end scope 4 in function ludcmp_test: Loop at depth 2 containing: %bb.32<header><exiting>,%bb.33,%bb.34<latch>
+ at (BB32, BB35)

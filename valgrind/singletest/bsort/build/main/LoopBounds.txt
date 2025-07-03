@@ -1,0 +1,13 @@
+We found the following loop bounds automatically:
+# In function bsort_BubbleSort, loop:
+  BB#1:for.cond<header><exiting>_BB#2:for.body_BB#3:for.cond1_BB#4:for.body3_BB#5:for.inc_BB#6:for.end_BB#7:for.inc8<latch> with context :CSITE_main_BB0_I7:CSITE_bsort_main_BB0_I7:FUNCALL_bsort_BubbleSort
+the loop header is executed at most 2 times.
+# In function bsort_BubbleSort, loop:
+  BB#3:for.cond1<header><exiting>_BB#4:for.body3_BB#5:for.inc<latch> with context :CSITE_main_BB0_I7:CSITE_bsort_main_BB0_I7:FUNCALL_bsort_BubbleSort
+the loop header is executed at most 2 times.
+# In function bsort_Initialize, loop:
+  BB#1:for.cond<header><exiting>_BB#2:for.body_BB#3:for.inc<latch> with context :CSITE_main_BB0_I6:CSITE_bsort_init_BB0_I7:FUNCALL_bsort_Initialize
+the loop header is executed at most 3 times.
+# In function bsort_return, loop:
+  BB#1:for.cond<header><exiting>_BB#2:for.body_BB#3:land.rhs_BB#4:land.end_BB#5:for.inc<latch> with context :CSITE_main_BB0_I8:FUNCALL_bsort_return
+the loop header is executed at most 2 times.

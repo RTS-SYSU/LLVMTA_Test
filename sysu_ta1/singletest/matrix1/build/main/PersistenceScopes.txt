@@ -1,0 +1,36 @@
+Starting Scopes:
+We start scope 2 in function matrix1_pin_down: Loop at depth 1 containing: %bb.1<header><exiting>,%bb.2,%bb.3<latch>
+ at (BB0, BB1)
+We start scope 1 in function matrix1_pin_down: Loop at depth 1 containing: %bb.5<header><exiting>,%bb.6,%bb.7<latch>
+ at (BB4, BB5)
+We start scope 0 in function matrix1_pin_down: Loop at depth 1 containing: %bb.9<header><exiting>,%bb.10,%bb.11<latch>
+ at (BB8, BB9)
+We start scope 3 in function matrix1_return: Loop at depth 1 containing: %bb.1<header><exiting>,%bb.2,%bb.3<latch>
+ at (BB0, BB1)
+We start scope 4 in function matrix1_main: Loop at depth 1 containing: %bb.1<header><exiting>,%bb.2,%bb.3,%bb.4,%bb.5,%bb.6,%bb.7,%bb.8,%bb.9,%bb.10,%bb.11<latch>
+    Loop at depth 2 containing: %bb.3<header><exiting>,%bb.4,%bb.5,%bb.6,%bb.7,%bb.8,%bb.9<latch>
+        Loop at depth 3 containing: %bb.5<header><exiting>,%bb.6,%bb.7<latch>
+ at (BB0, BB1)
+We start scope 5 in function matrix1_main: Loop at depth 2 containing: %bb.3<header><exiting>,%bb.4,%bb.5,%bb.6,%bb.7,%bb.8,%bb.9<latch>
+    Loop at depth 3 containing: %bb.5<header><exiting>,%bb.6,%bb.7<latch>
+ at (BB2, BB3)
+We start scope 6 in function matrix1_main: Loop at depth 3 containing: %bb.5<header><exiting>,%bb.6,%bb.7<latch>
+ at (BB4, BB5)
+Ending Scopes:
+We end scope 2 in function matrix1_pin_down: Loop at depth 1 containing: %bb.1<header><exiting>,%bb.2,%bb.3<latch>
+ at (BB1, BB4)
+We end scope 1 in function matrix1_pin_down: Loop at depth 1 containing: %bb.5<header><exiting>,%bb.6,%bb.7<latch>
+ at (BB5, BB8)
+We end scope 0 in function matrix1_pin_down: Loop at depth 1 containing: %bb.9<header><exiting>,%bb.10,%bb.11<latch>
+ at (BB9, BB12)
+We end scope 3 in function matrix1_return: Loop at depth 1 containing: %bb.1<header><exiting>,%bb.2,%bb.3<latch>
+ at (BB1, BB4)
+We end scope 4 in function matrix1_main: Loop at depth 1 containing: %bb.1<header><exiting>,%bb.2,%bb.3,%bb.4,%bb.5,%bb.6,%bb.7,%bb.8,%bb.9,%bb.10,%bb.11<latch>
+    Loop at depth 2 containing: %bb.3<header><exiting>,%bb.4,%bb.5,%bb.6,%bb.7,%bb.8,%bb.9<latch>
+        Loop at depth 3 containing: %bb.5<header><exiting>,%bb.6,%bb.7<latch>
+ at (BB1, BB12)
+We end scope 5 in function matrix1_main: Loop at depth 2 containing: %bb.3<header><exiting>,%bb.4,%bb.5,%bb.6,%bb.7,%bb.8,%bb.9<latch>
+    Loop at depth 3 containing: %bb.5<header><exiting>,%bb.6,%bb.7<latch>
+ at (BB3, BB10)
+We end scope 6 in function matrix1_main: Loop at depth 3 containing: %bb.5<header><exiting>,%bb.6,%bb.7<latch>
+ at (BB5, BB8)

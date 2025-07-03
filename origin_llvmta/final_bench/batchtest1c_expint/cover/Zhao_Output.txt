@@ -1,0 +1,12 @@
+/workspaces/llvmta/testcases/batchtest/cover
+main__CEOP_1 have 1210 instructions
+main_MAX_CEOP_: 1210
+--------------------------------------------------------------
+/workspaces/llvmta/testcases/batchtest/cover
+main__CEOP_1 have 127 instructions
+main_MAX_CEOP_: 127
+--------------------------------------------------------------
+/workspaces/llvmta/testcases/batchtest/cover
+main__CEOP_1 have 127 instructions
+main_MAX_CEOP_: 127
+--------------------------------------------------------------

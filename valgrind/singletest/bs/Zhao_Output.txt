@@ -1,0 +1,14 @@
+main__CEOP_1 have 81 instructions
+main_MAX_CEOP_: 81
+main__CEOP_1 have 21 instructions
+main__CEOP_2 have 27 instructions
+main__CEOP_3 have 27 instructions
+main_MAX_CEOP_: 27
+main__CEOP_1 have 14 instructions
+main_MAX_CEOP_: 14
+main__CEOP_1 have 34 instructions
+main_MAX_CEOP_: 34
+/workspaces/llvmta/testcases/batchtest/bs
+main__CEOP_1 have 14 instructions
+main_MAX_CEOP_: 14
+--------------------------------------------------------------

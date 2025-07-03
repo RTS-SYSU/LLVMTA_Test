@@ -1,0 +1,88 @@
+Starting Scopes:
+We start scope 3 in function fir2dim_init: Loop at depth 1 containing: %bb.1<header><exiting>,%bb.2,%bb.3<latch>
+ at (BB0, BB1)
+We start scope 2 in function fir2dim_init: Loop at depth 1 containing: %bb.5<header><exiting>,%bb.6,%bb.7<latch>
+ at (BB4, BB5)
+We start scope 1 in function fir2dim_init: Loop at depth 1 containing: %bb.9<header><exiting>,%bb.10,%bb.11<latch>
+ at (BB8, BB9)
+We start scope 0 in function fir2dim_init: Loop at depth 1 containing: %bb.13<header><exiting>,%bb.14,%bb.15<latch>
+ at (BB12, BB13)
+We start scope 10 in function fir2dim_pin_down: Loop at depth 1 containing: %bb.1<header><exiting>,%bb.2,%bb.3,%bb.6,%bb.7<latch>,%bb.4,%bb.5
+    Loop at depth 2 containing: %bb.3<header><exiting>,%bb.4,%bb.5<latch>
+ at (BB0, BB1)
+We start scope 11 in function fir2dim_pin_down: Loop at depth 2 containing: %bb.3<header><exiting>,%bb.4,%bb.5<latch>
+ at (BB2, BB3)
+We start scope 9 in function fir2dim_pin_down: Loop at depth 1 containing: %bb.9<header><exiting>,%bb.10,%bb.11<latch>
+ at (BB8, BB9)
+We start scope 8 in function fir2dim_pin_down: Loop at depth 1 containing: %bb.13<header><exiting>,%bb.14,%bb.15<latch>
+ at (BB12, BB13)
+We start scope 6 in function fir2dim_pin_down: Loop at depth 1 containing: %bb.17<header><exiting>,%bb.18,%bb.19,%bb.22,%bb.23<latch>,%bb.20,%bb.21
+    Loop at depth 2 containing: %bb.19<header><exiting>,%bb.20,%bb.21<latch>
+ at (BB16, BB17)
+We start scope 7 in function fir2dim_pin_down: Loop at depth 2 containing: %bb.19<header><exiting>,%bb.20,%bb.21<latch>
+ at (BB18, BB19)
+We start scope 5 in function fir2dim_pin_down: Loop at depth 1 containing: %bb.25<header><exiting>,%bb.26,%bb.27<latch>
+ at (BB24, BB25)
+We start scope 4 in function fir2dim_pin_down: Loop at depth 1 containing: %bb.29<header><exiting>,%bb.30,%bb.31<latch>
+ at (BB28, BB29)
+We start scope 12 in function fir2dim_main: Loop at depth 1 containing: %bb.1<header><exiting>,%bb.2,%bb.3,%bb.4,%bb.5,%bb.6,%bb.7,%bb.8,%bb.9,%bb.10,%bb.11,%bb.12,%bb.13,%bb.14,%bb.15,%bb.16,%bb.17,%bb.18,%bb.19<latch>
+    Loop at depth 2 containing: %bb.3<header><exiting>,%bb.4,%bb.5,%bb.6,%bb.7,%bb.8,%bb.9,%bb.10,%bb.11,%bb.12,%bb.13,%bb.14,%bb.15,%bb.16,%bb.17<latch>
+        Loop at depth 3 containing: %bb.5<header><exiting>,%bb.6,%bb.7<latch>
+        Loop at depth 3 containing: %bb.9<header><exiting>,%bb.10,%bb.11<latch>
+        Loop at depth 3 containing: %bb.13<header><exiting>,%bb.14,%bb.15<latch>
+ at (BB0, BB1)
+We start scope 13 in function fir2dim_main: Loop at depth 2 containing: %bb.3<header><exiting>,%bb.4,%bb.5,%bb.6,%bb.7,%bb.8,%bb.9,%bb.10,%bb.11,%bb.12,%bb.13,%bb.14,%bb.15,%bb.16,%bb.17<latch>
+    Loop at depth 3 containing: %bb.5<header><exiting>,%bb.6,%bb.7<latch>
+    Loop at depth 3 containing: %bb.9<header><exiting>,%bb.10,%bb.11<latch>
+    Loop at depth 3 containing: %bb.13<header><exiting>,%bb.14,%bb.15<latch>
+ at (BB2, BB3)
+We start scope 14 in function fir2dim_main: Loop at depth 3 containing: %bb.5<header><exiting>,%bb.6,%bb.7<latch>
+ at (BB4, BB5)
+We start scope 15 in function fir2dim_main: Loop at depth 3 containing: %bb.9<header><exiting>,%bb.10,%bb.11<latch>
+ at (BB8, BB9)
+We start scope 16 in function fir2dim_main: Loop at depth 3 containing: %bb.13<header><exiting>,%bb.14,%bb.15<latch>
+ at (BB12, BB13)
+Ending Scopes:
+We end scope 3 in function fir2dim_init: Loop at depth 1 containing: %bb.1<header><exiting>,%bb.2,%bb.3<latch>
+ at (BB1, BB4)
+We end scope 2 in function fir2dim_init: Loop at depth 1 containing: %bb.5<header><exiting>,%bb.6,%bb.7<latch>
+ at (BB5, BB8)
+We end scope 1 in function fir2dim_init: Loop at depth 1 containing: %bb.9<header><exiting>,%bb.10,%bb.11<latch>
+ at (BB9, BB12)
+We end scope 0 in function fir2dim_init: Loop at depth 1 containing: %bb.13<header><exiting>,%bb.14,%bb.15<latch>
+ at (BB13, BB16)
+We end scope 10 in function fir2dim_pin_down: Loop at depth 1 containing: %bb.1<header><exiting>,%bb.2,%bb.3,%bb.6,%bb.7<latch>,%bb.4,%bb.5
+    Loop at depth 2 containing: %bb.3<header><exiting>,%bb.4,%bb.5<latch>
+ at (BB1, BB8)
+We end scope 11 in function fir2dim_pin_down: Loop at depth 2 containing: %bb.3<header><exiting>,%bb.4,%bb.5<latch>
+ at (BB3, BB6)
+We end scope 9 in function fir2dim_pin_down: Loop at depth 1 containing: %bb.9<header><exiting>,%bb.10,%bb.11<latch>
+ at (BB9, BB12)
+We end scope 8 in function fir2dim_pin_down: Loop at depth 1 containing: %bb.13<header><exiting>,%bb.14,%bb.15<latch>
+ at (BB13, BB16)
+We end scope 6 in function fir2dim_pin_down: Loop at depth 1 containing: %bb.17<header><exiting>,%bb.18,%bb.19,%bb.22,%bb.23<latch>,%bb.20,%bb.21
+    Loop at depth 2 containing: %bb.19<header><exiting>,%bb.20,%bb.21<latch>
+ at (BB17, BB24)
+We end scope 7 in function fir2dim_pin_down: Loop at depth 2 containing: %bb.19<header><exiting>,%bb.20,%bb.21<latch>
+ at (BB19, BB22)
+We end scope 5 in function fir2dim_pin_down: Loop at depth 1 containing: %bb.25<header><exiting>,%bb.26,%bb.27<latch>
+ at (BB25, BB28)
+We end scope 4 in function fir2dim_pin_down: Loop at depth 1 containing: %bb.29<header><exiting>,%bb.30,%bb.31<latch>
+ at (BB29, BB32)
+We end scope 12 in function fir2dim_main: Loop at depth 1 containing: %bb.1<header><exiting>,%bb.2,%bb.3,%bb.4,%bb.5,%bb.6,%bb.7,%bb.8,%bb.9,%bb.10,%bb.11,%bb.12,%bb.13,%bb.14,%bb.15,%bb.16,%bb.17,%bb.18,%bb.19<latch>
+    Loop at depth 2 containing: %bb.3<header><exiting>,%bb.4,%bb.5,%bb.6,%bb.7,%bb.8,%bb.9,%bb.10,%bb.11,%bb.12,%bb.13,%bb.14,%bb.15,%bb.16,%bb.17<latch>
+        Loop at depth 3 containing: %bb.5<header><exiting>,%bb.6,%bb.7<latch>
+        Loop at depth 3 containing: %bb.9<header><exiting>,%bb.10,%bb.11<latch>
+        Loop at depth 3 containing: %bb.13<header><exiting>,%bb.14,%bb.15<latch>
+ at (BB1, BB20)
+We end scope 13 in function fir2dim_main: Loop at depth 2 containing: %bb.3<header><exiting>,%bb.4,%bb.5,%bb.6,%bb.7,%bb.8,%bb.9,%bb.10,%bb.11,%bb.12,%bb.13,%bb.14,%bb.15,%bb.16,%bb.17<latch>
+    Loop at depth 3 containing: %bb.5<header><exiting>,%bb.6,%bb.7<latch>
+    Loop at depth 3 containing: %bb.9<header><exiting>,%bb.10,%bb.11<latch>
+    Loop at depth 3 containing: %bb.13<header><exiting>,%bb.14,%bb.15<latch>
+ at (BB3, BB18)
+We end scope 14 in function fir2dim_main: Loop at depth 3 containing: %bb.5<header><exiting>,%bb.6,%bb.7<latch>
+ at (BB5, BB8)
+We end scope 15 in function fir2dim_main: Loop at depth 3 containing: %bb.9<header><exiting>,%bb.10,%bb.11<latch>
+ at (BB9, BB12)
+We end scope 16 in function fir2dim_main: Loop at depth 3 containing: %bb.13<header><exiting>,%bb.14,%bb.15<latch>
+ at (BB13, BB16)

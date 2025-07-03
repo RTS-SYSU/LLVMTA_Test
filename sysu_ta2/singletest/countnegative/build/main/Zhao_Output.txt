@@ -1,0 +1,2 @@
+main__CEOP_1 have 5689 instructions
+main_MAX_CEOP_: 5689

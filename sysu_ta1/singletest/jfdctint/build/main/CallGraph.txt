@@ -1,0 +1,66 @@
+Call Graph for analysed program
+-------------------------------
+
+From callsite jfdctint_main_BB0_I6 potentially calling {jfdctint_jpeg_fdct_islow}
+From callsite main_BB0_I6 potentially calling {jfdctint_init}
+From callsite main_BB0_I7 potentially calling {jfdctint_main}
+From callsite main_BB0_I8 potentially calling {jfdctint_return}
+From callsite __absvdi2_BB1_I3 potentially calling {compilerrt_abort_impl}
+From callsite __absvsi2_BB1_I3 potentially calling {compilerrt_abort_impl}
+From callsite __addvdi3_BB2_I3 potentially calling {compilerrt_abort_impl}
+From callsite __addvdi3_BB5_I3 potentially calling {compilerrt_abort_impl}
+From callsite __addvsi3_BB2_I3 potentially calling {compilerrt_abort_impl}
+From callsite __addvsi3_BB5_I3 potentially calling {compilerrt_abort_impl}
+From callsite __aeabi_lcmp_BB0_I10 potentially calling {__cmpdi2}
+From callsite __divdi3_BB0_I27 potentially calling {__udivmoddi4}
+From callsite __udivmoddi4_BB3_I2 potentially calling {__umodsi3}
+From callsite __udivmoddi4_BB4_I2 potentially calling {__udivsi3}
+From callsite __udivmoddi4_BB11_I2 potentially calling {__umodsi3}
+From callsite __udivmoddi4_BB12_I2 potentially calling {__udivsi3}
+From callsite __udivmoddi4_BB15_I2 potentially calling {__umodsi3}
+From callsite __udivmoddi4_BB16_I2 potentially calling {__udivsi3}
+From callsite __divmoddi4_BB0_I22 potentially calling {__divdi3}
+From callsite __divmodsi4_BB0_I10 potentially calling {__divsi3}
+From callsite __divsi3_BB0_I16 potentially calling {__udivsi3}
+From callsite __moddi3_BB0_I24 potentially calling {__udivmoddi4}
+From callsite __modsi3_BB0_I9 potentially calling {__divsi3}
+From callsite __mulvdi3_BB4_I3 potentially calling {compilerrt_abort_impl}
+From callsite __mulvdi3_BB9_I3 potentially calling {compilerrt_abort_impl}
+From callsite __mulvdi3_BB14_I4 potentially calling {__divdi3}
+From callsite __mulvdi3_BB15_I3 potentially calling {compilerrt_abort_impl}
+From callsite __mulvdi3_BB17_I6 potentially calling {__divdi3}
+From callsite __mulvdi3_BB18_I3 potentially calling {compilerrt_abort_impl}
+From callsite __mulvsi3_BB4_I3 potentially calling {compilerrt_abort_impl}
+From callsite __mulvsi3_BB9_I3 potentially calling {compilerrt_abort_impl}
+From callsite __mulvsi3_BB14_I2 potentially calling {__divsi3}
+From callsite __mulvsi3_BB15_I3 potentially calling {compilerrt_abort_impl}
+From callsite __mulvsi3_BB17_I3 potentially calling {__divsi3}
+From callsite __mulvsi3_BB18_I3 potentially calling {compilerrt_abort_impl}
+From callsite __paritydi2_BB0_I14 potentially calling {__paritysi2}
+From callsite __subvdi3_BB2_I3 potentially calling {compilerrt_abort_impl}
+From callsite __subvdi3_BB5_I3 potentially calling {compilerrt_abort_impl}
+From callsite __subvsi3_BB2_I3 potentially calling {compilerrt_abort_impl}
+From callsite __subvsi3_BB5_I3 potentially calling {compilerrt_abort_impl}
+From callsite __aeabi_ulcmp_BB0_I10 potentially calling {__ucmpdi2}
+From callsite __udivdi3_BB0_I14 potentially calling {__udivmoddi4}
+From callsite __udivmodsi4_BB0_I10 potentially calling {__udivsi3}
+From callsite __udivsi3_BB4_I1 potentially calling {__clzsi2}
+From callsite __udivsi3_BB4_I5 potentially calling {__clzsi2}
+From callsite __umoddi3_BB0_I14 potentially calling {__udivmoddi4}
+From callsite __umodsi3_BB0_I9 potentially calling {__udivsi3}
+
+Callee jfdctint_init can be called from (and return to) {main_BB0_I6}
+Callee jfdctint_return can be called from (and return to) {main_BB0_I8}
+Callee jfdctint_jpeg_fdct_islow can be called from (and return to) {jfdctint_main_BB0_I6}
+Callee jfdctint_main can be called from (and return to) {main_BB0_I7}
+Callee compilerrt_abort_impl can be called from (and return to) {__absvdi2_BB1_I3, __absvsi2_BB1_I3, __addvdi3_BB2_I3, __addvdi3_BB5_I3, __addvsi3_BB2_I3, __addvsi3_BB5_I3, __mulvdi3_BB4_I3, __mulvdi3_BB9_I3, __mulvdi3_BB15_I3, __mulvdi3_BB18_I3, __mulvsi3_BB4_I3, __mulvsi3_BB9_I3, __mulvsi3_BB15_I3, __mulvsi3_BB18_I3, __subvdi3_BB2_I3, __subvdi3_BB5_I3, __subvsi3_BB2_I3, __subvsi3_BB5_I3}
+Callee __clzsi2 can be called from (and return to) {__udivsi3_BB4_I1, __udivsi3_BB4_I5}
+Callee __cmpdi2 can be called from (and return to) {__aeabi_lcmp_BB0_I10}
+Callee __divdi3 can be called from (and return to) {__divmoddi4_BB0_I22, __mulvdi3_BB14_I4, __mulvdi3_BB17_I6}
+Callee __udivmoddi4 can be called from (and return to) {__divdi3_BB0_I27, __moddi3_BB0_I24, __udivdi3_BB0_I14, __umoddi3_BB0_I14}
+Callee __divsi3 can be called from (and return to) {__divmodsi4_BB0_I10, __modsi3_BB0_I9, __mulvsi3_BB14_I2, __mulvsi3_BB17_I3}
+Callee __paritysi2 can be called from (and return to) {__paritydi2_BB0_I14}
+Callee __ucmpdi2 can be called from (and return to) {__aeabi_ulcmp_BB0_I10}
+Callee __udivsi3 can be called from (and return to) {__divsi3_BB0_I16, __udivmoddi4_BB4_I2, __udivmoddi4_BB12_I2, __udivmoddi4_BB16_I2, __udivmodsi4_BB0_I10, __umodsi3_BB0_I9}
+Callee __umodsi3 can be called from (and return to) {__udivmoddi4_BB3_I2, __udivmoddi4_BB11_I2, __udivmoddi4_BB15_I2}
+

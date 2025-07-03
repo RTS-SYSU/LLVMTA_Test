@@ -1,0 +1,6 @@
+Starting Scopes:
+We start scope 0 in function fib: Loop at depth 1 containing: %bb.1<header>,%bb.2,%bb.3<exiting>,%bb.4,%bb.5<latch>
+ at (BB0, BB1)
+Ending Scopes:
+We end scope 0 in function fib: Loop at depth 1 containing: %bb.1<header>,%bb.2,%bb.3<exiting>,%bb.4,%bb.5<latch>
+ at (BB3, BB6)

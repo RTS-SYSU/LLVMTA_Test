@@ -1,0 +1,31 @@
+We found the following loop bounds automatically:
+# In function ndes_des, loop:
+  BB#12:for.cond16<header><exiting>_BB#13:for.body19_BB#14:for.inc22<latch> with context :CSITE_main_BB0_I7:CSITE_ndes_main_BB0_I23:FUNCALL_ndes_des
+the loop header is executed at most 1 times.
+# In function ndes_des, loop:
+  BB#17:for.cond26<header><exiting>_BB#18:for.body29_BB#19:for.inc48<latch> with context :CSITE_main_BB0_I7:CSITE_ndes_main_BB0_I23:FUNCALL_ndes_des
+the loop header is executed at most 1 times.
+# In function ndes_des, loop:
+  BB#21:for.cond52<header><exiting>_BB#22:for.body55_BB#24:cond.false_BB#23:cond.true_BB#25:cond.end_BB#26:for.inc64<latch> with context :CSITE_main_BB0_I7:CSITE_ndes_main_BB0_I23:FUNCALL_ndes_des
+the loop header is executed at most 1 times.
+# In function ndes_des, loop:
+  BB#28:for.cond73<header><exiting>_BB#29:for.body76_BB#30:for.inc95<latch> with context :CSITE_main_BB0_I7:CSITE_ndes_main_BB0_I23:FUNCALL_ndes_des
+the loop header is executed at most 1 times.
+# In function ndes_des, loop:
+  BB#2:for.cond<header><exiting>_BB#3:for.body_BB#4:for.inc<latch> with context :CSITE_main_BB0_I7:CSITE_ndes_main_BB0_I23:FUNCALL_ndes_des
+the loop header is executed at most 1 times.
+# In function ndes_des, loop:
+  BB#8:for.cond3<header><exiting>_BB#9:for.body5_BB#10:for.inc13<latch> with context :CSITE_main_BB0_I7:CSITE_ndes_main_BB0_I23:FUNCALL_ndes_des
+the loop header is executed at most 1 times.
+# In function ndes_init, loop:
+  BB#1:for.cond<header><exiting>_BB#2:for.body_BB#3:for.inc<latch> with context :CSITE_main_BB0_I6:FUNCALL_ndes_init
+the loop header is executed at most 10 times.
+# In function ndes_init, loop:
+  BB#5:for.cond2<header><exiting>_BB#6:for.body4_BB#7:for.inc7<latch> with context :CSITE_main_BB0_I6:FUNCALL_ndes_init
+the loop header is executed at most 10 times.
+# In function ndes_ks, loop:
+  BB#11:for.cond20<header><exiting>_BB#12:for.body22_BB#13:for.inc53<latch> with context :CSITE_main_BB0_I7:CSITE_ndes_main_BB0_I23:CSITE_ndes_des_BB13_I11:FUNCALL_ndes_ks
+the loop header is executed at most 16 times.
+# In function ndes_ks, loop:
+  BB#6:for.cond<header><exiting>_BB#7:for.body_BB#8:for.inc<latch> with context :CSITE_main_BB0_I7:CSITE_ndes_main_BB0_I23:CSITE_ndes_des_BB13_I11:FUNCALL_ndes_ks
+the loop header is executed at most 2 times.

@@ -1,0 +1,22 @@
+We found the following loop bounds automatically:
+# In function matrix1_main, loop:
+  BB#1:for.cond<header><exiting>_BB#2:for.body_BB#3:for.cond1_BB#4:for.body3_BB#5:for.cond4_BB#6:for.body6_BB#7:for.inc_BB#8:for.end_BB#9:for.inc10_BB#10:for.end12_BB#11:for.inc13<latch> with context :CSITE_main_BB0_I7:FUNCALL_matrix1_main
+the loop header is executed at most 0 times.
+# In function matrix1_main, loop:
+  BB#3:for.cond1<header><exiting>_BB#4:for.body3_BB#5:for.cond4_BB#6:for.body6_BB#7:for.inc_BB#8:for.end_BB#9:for.inc10<latch> with context :CSITE_main_BB0_I7:FUNCALL_matrix1_main
+the loop header is executed at most 1 times.
+# In function matrix1_main, loop:
+  BB#5:for.cond4<header><exiting>_BB#6:for.body6_BB#7:for.inc<latch> with context :CSITE_main_BB0_I7:FUNCALL_matrix1_main
+the loop header is executed at most 0 times.
+# In function matrix1_pin_down, loop:
+  BB#1:for.cond<header><exiting>_BB#2:for.body_BB#3:for.inc<latch> with context :CSITE_main_BB0_I6:CSITE_matrix1_init_BB0_I9:FUNCALL_matrix1_pin_down
+the loop header is executed at most 1 times.
+# In function matrix1_pin_down, loop:
+  BB#5:for.cond1<header><exiting>_BB#6:for.body3_BB#7:for.inc5<latch> with context :CSITE_main_BB0_I6:CSITE_matrix1_init_BB0_I9:FUNCALL_matrix1_pin_down
+the loop header is executed at most 1 times.
+# In function matrix1_pin_down, loop:
+  BB#9:for.cond8<header><exiting>_BB#10:for.body10_BB#11:for.inc12<latch> with context :CSITE_main_BB0_I6:CSITE_matrix1_init_BB0_I9:FUNCALL_matrix1_pin_down
+the loop header is executed at most 0 times.
+# In function matrix1_return, loop:
+  BB#1:for.cond<header><exiting>_BB#2:for.body_BB#3:for.inc<latch> with context :CSITE_main_BB0_I8:FUNCALL_matrix1_return
+the loop header is executed at most 1 times.

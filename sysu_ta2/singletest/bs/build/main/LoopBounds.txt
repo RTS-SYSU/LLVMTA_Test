@@ -1,0 +1,4 @@
+We found the following loop bounds automatically:
+# In function binary_search, loop:
+  BB#1:while.cond<header><exiting>_BB#2:while.body<latch> with context :CSITE_main_BB0_I7:FUNCALL_binary_search
+the loop header is executed at most 1 times.

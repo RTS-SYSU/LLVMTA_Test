@@ -1,0 +1,13 @@
+We found the following loop bounds automatically:
+# In function countnegative_initialize, loop:
+  BB#1:for.cond<header><exiting>_BB#2:for.body_BB#3:for.cond1_BB#4:for.body3_BB#5:for.inc_BB#6:for.end_BB#7:for.inc5<latch> with context :CSITE_main_BB0_I6:CSITE_countnegative_init_BB0_I8:FUNCALL_countnegative_initialize
+the loop header is executed at most 10 times.
+# In function countnegative_initialize, loop:
+  BB#3:for.cond1<header><exiting>_BB#4:for.body3_BB#5:for.inc<latch> with context :CSITE_main_BB0_I6:CSITE_countnegative_init_BB0_I8:FUNCALL_countnegative_initialize
+the loop header is executed at most 10 times.
+# In function countnegative_sum, loop:
+  BB#1:for.cond<header><exiting>_BB#2:for.body_BB#3:for.cond1_BB#4:for.body3_BB#5:for.inc_BB#6:for.end_BB#7:for.inc6<latch> with context :CSITE_main_BB0_I7:CSITE_countnegative_main_BB0_I7:FUNCALL_countnegative_sum
+the loop header is executed at most 10 times.
+# In function countnegative_sum, loop:
+  BB#3:for.cond1<header><exiting>_BB#4:for.body3_BB#5:for.inc<latch> with context :CSITE_main_BB0_I7:CSITE_countnegative_main_BB0_I7:FUNCALL_countnegative_sum
+the loop header is executed at most 10 times.

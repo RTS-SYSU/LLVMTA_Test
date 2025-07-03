@@ -1,0 +1,6 @@
+Starting Scopes:
+We start scope 0 in function cosf_main: Loop at depth 1 containing: %bb.1<header><exiting>,%bb.2,%bb.3<latch>
+ at (BB0, BB1)
+Ending Scopes:
+We end scope 0 in function cosf_main: Loop at depth 1 containing: %bb.1<header><exiting>,%bb.2,%bb.3<latch>
+ at (BB1, BB4)

@@ -1,0 +1,40 @@
+We found the following loop bounds automatically:
+# In function g723_enc_init, loop:
+  BB#1:for.cond<header><exiting>_BB#2:for.body_BB#3:for.inc<latch> with context :CSITE_main_BB0_I6:FUNCALL_g723_enc_init
+the loop header is executed at most 1 times.
+# In function g723_enc_init_state, loop:
+  BB#1:for.cond<header><exiting>_BB#2:for.body_BB#3:for.inc<latch> with context :CSITE_main_BB0_I6:CSITE_g723_enc_init_BB0_I11:FUNCALL_g723_enc_init_state
+the loop header is executed at most 1 times.
+# In function g723_enc_init_state, loop:
+  BB#5:for.cond3<header><exiting>_BB#6:for.body5_BB#7:for.inc8<latch> with context :CSITE_main_BB0_I6:CSITE_g723_enc_init_BB0_I11:FUNCALL_g723_enc_init_state
+the loop header is executed at most 1 times.
+# In function g723_enc_main, loop:
+  BB#1:for.cond<header><exiting>_BB#2:for.body_BB#3:for.inc<latch> with context :CSITE_main_BB0_I7:FUNCALL_g723_enc_main
+the loop header is executed at most 1 times.
+# In function g723_enc_predictor_zero, loop:
+  BB#1:for.cond<header><exiting>_BB#2:for.body_BB#3:for.inc<latch> with context :CSITE_main_BB0_I7:CSITE_g723_enc_main_BB2_I6:CSITE_g723_enc_g723_24_encoder_BB0_I17:FUNCALL_g723_enc_predictor_zero
+the loop header is executed at most 1 times.
+# In function g723_enc_quan, loop:
+  BB#1:for.cond<header><exiting>_BB#2:for.body_BB#3:for.inc<latch> with context :CSITE_main_BB0_I7:CSITE_g723_enc_main_BB2_I6:CSITE_g723_enc_g723_24_encoder_BB0_I17:CSITE_g723_enc_predictor_zero_BB0_I12:CSITE_g723_enc_fmult_BB0_I12:FUNCALL_g723_enc_quan
+the loop header is executed at most 1 times.
+# In function g723_enc_quan, loop:
+  BB#1:for.cond<header><exiting>_BB#2:for.body_BB#3:for.inc<latch> with context :CSITE_main_BB0_I7:CSITE_g723_enc_main_BB2_I6:CSITE_g723_enc_g723_24_encoder_BB0_I17:CSITE_g723_enc_predictor_zero_BB2_I6:CSITE_g723_enc_fmult_BB0_I12:FUNCALL_g723_enc_quan
+the loop header is executed at most 1 times.
+# In function g723_enc_quan, loop:
+  BB#1:for.cond<header><exiting>_BB#2:for.body_BB#3:for.inc<latch> with context :CSITE_main_BB0_I7:CSITE_g723_enc_main_BB2_I6:CSITE_g723_enc_g723_24_encoder_BB0_I22:CSITE_g723_enc_predictor_pole_BB0_I12:CSITE_g723_enc_fmult_BB0_I12:FUNCALL_g723_enc_quan
+the loop header is executed at most 1 times.
+# In function g723_enc_quan, loop:
+  BB#1:for.cond<header><exiting>_BB#2:for.body_BB#3:for.inc<latch> with context :CSITE_main_BB0_I7:CSITE_g723_enc_main_BB2_I6:CSITE_g723_enc_g723_24_encoder_BB0_I22:CSITE_g723_enc_predictor_pole_BB0_I18:CSITE_g723_enc_fmult_BB0_I12:FUNCALL_g723_enc_quan
+the loop header is executed at most 1 times.
+# In function g723_enc_quan, loop:
+  BB#1:for.cond<header><exiting>_BB#2:for.body_BB#3:for.inc<latch> with context :CSITE_main_BB0_I7:CSITE_g723_enc_main_BB2_I6:CSITE_g723_enc_g723_24_encoder_BB0_I43:CSITE_g723_enc_quantize_BB0_I16:FUNCALL_g723_enc_quan
+the loop header is executed at most 1 times.
+# In function g723_enc_quan, loop:
+  BB#1:for.cond<header><exiting>_BB#2:for.body_BB#3:for.inc<latch> with context :CSITE_main_BB0_I7:CSITE_g723_enc_main_BB2_I6:CSITE_g723_enc_g723_24_encoder_BB0_I43:CSITE_g723_enc_quantize_BB0_I34:FUNCALL_g723_enc_quan
+the loop header is executed at most 1 times.
+# In function g723_enc_return, loop:
+  BB#1:for.cond<header><exiting>_BB#2:for.body_BB#3:for.inc<latch> with context :CSITE_main_BB0_I8:FUNCALL_g723_enc_return
+the loop header is executed at most 0 times.
+# In function g723_enc_update, loop:
+  BB#4:for.cond<header><exiting>_BB#5:for.body_BB#6:for.inc<latch> with context :CSITE_main_BB0_I7:CSITE_g723_enc_main_BB2_I6:CSITE_g723_enc_g723_24_encoder_BB0_I79:FUNCALL_g723_enc_update
+the loop header is executed at most 1 times.

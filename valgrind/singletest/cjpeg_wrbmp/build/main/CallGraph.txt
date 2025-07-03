@@ -1,0 +1,87 @@
+Call Graph for analysed program
+-------------------------------
+
+From callsite cjpeg_wrbmp_init_BB0_I6 potentially calling {cjpeg_wrbmp_initInput}
+From callsite cjpeg_wrbmp_write_colormap_BB4_I6 potentially calling {cjpeg_wrbmp_putc_modified}
+From callsite cjpeg_wrbmp_write_colormap_BB4_I10 potentially calling {cjpeg_wrbmp_putc_modified}
+From callsite cjpeg_wrbmp_write_colormap_BB4_I15 potentially calling {cjpeg_wrbmp_putc_modified}
+From callsite cjpeg_wrbmp_write_colormap_BB4_I17 potentially calling {cjpeg_wrbmp_putc_modified}
+From callsite cjpeg_wrbmp_write_colormap_BB9_I6 potentially calling {cjpeg_wrbmp_putc_modified}
+From callsite cjpeg_wrbmp_write_colormap_BB9_I10 potentially calling {cjpeg_wrbmp_putc_modified}
+From callsite cjpeg_wrbmp_write_colormap_BB9_I15 potentially calling {cjpeg_wrbmp_putc_modified}
+From callsite cjpeg_wrbmp_write_colormap_BB9_I17 potentially calling {cjpeg_wrbmp_putc_modified}
+From callsite cjpeg_wrbmp_write_colormap_BB15_I1 potentially calling {cjpeg_wrbmp_putc_modified}
+From callsite cjpeg_wrbmp_write_colormap_BB15_I4 potentially calling {cjpeg_wrbmp_putc_modified}
+From callsite cjpeg_wrbmp_write_colormap_BB15_I7 potentially calling {cjpeg_wrbmp_putc_modified}
+From callsite cjpeg_wrbmp_write_colormap_BB15_I9 potentially calling {cjpeg_wrbmp_putc_modified}
+From callsite cjpeg_wrbmp_main_BB0_I9 potentially calling {cjpeg_wrbmp_finish_output_bmp}
+From callsite cjpeg_wrbmp_main_BB0_I17 potentially calling {cjpeg_wrbmp_write_colormap}
+From callsite cjpeg_wrbmp_main_BB0_I20 potentially calling {cjpeg_wrbmp_finish_output_bmp}
+From callsite cjpeg_wrbmp_main_BB0_I25 potentially calling {cjpeg_wrbmp_write_colormap}
+From callsite main_BB0_I6 potentially calling {cjpeg_wrbmp_init}
+From callsite main_BB0_I7 potentially calling {cjpeg_wrbmp_main}
+From callsite main_BB0_I8 potentially calling {cjpeg_wrbmp_return}
+From callsite cjpeg_wrbmp_initInput_BB0_I12 potentially calling {memcpy}
+From callsite __absvdi2_BB1_I3 potentially calling {compilerrt_abort_impl}
+From callsite __absvsi2_BB1_I3 potentially calling {compilerrt_abort_impl}
+From callsite __addvdi3_BB2_I3 potentially calling {compilerrt_abort_impl}
+From callsite __addvdi3_BB5_I3 potentially calling {compilerrt_abort_impl}
+From callsite __addvsi3_BB2_I3 potentially calling {compilerrt_abort_impl}
+From callsite __addvsi3_BB5_I3 potentially calling {compilerrt_abort_impl}
+From callsite __aeabi_lcmp_BB0_I10 potentially calling {__cmpdi2}
+From callsite __divdi3_BB0_I27 potentially calling {__udivmoddi4}
+From callsite __udivmoddi4_BB3_I2 potentially calling {__umodsi3}
+From callsite __udivmoddi4_BB4_I2 potentially calling {__udivsi3}
+From callsite __udivmoddi4_BB11_I2 potentially calling {__umodsi3}
+From callsite __udivmoddi4_BB12_I2 potentially calling {__udivsi3}
+From callsite __udivmoddi4_BB15_I2 potentially calling {__umodsi3}
+From callsite __udivmoddi4_BB16_I2 potentially calling {__udivsi3}
+From callsite __divmoddi4_BB0_I22 potentially calling {__divdi3}
+From callsite __divmodsi4_BB0_I10 potentially calling {__divsi3}
+From callsite __divsi3_BB0_I16 potentially calling {__udivsi3}
+From callsite __moddi3_BB0_I24 potentially calling {__udivmoddi4}
+From callsite __modsi3_BB0_I9 potentially calling {__divsi3}
+From callsite __mulvdi3_BB4_I3 potentially calling {compilerrt_abort_impl}
+From callsite __mulvdi3_BB9_I3 potentially calling {compilerrt_abort_impl}
+From callsite __mulvdi3_BB14_I4 potentially calling {__divdi3}
+From callsite __mulvdi3_BB15_I3 potentially calling {compilerrt_abort_impl}
+From callsite __mulvdi3_BB17_I6 potentially calling {__divdi3}
+From callsite __mulvdi3_BB18_I3 potentially calling {compilerrt_abort_impl}
+From callsite __mulvsi3_BB4_I3 potentially calling {compilerrt_abort_impl}
+From callsite __mulvsi3_BB9_I3 potentially calling {compilerrt_abort_impl}
+From callsite __mulvsi3_BB14_I2 potentially calling {__divsi3}
+From callsite __mulvsi3_BB15_I3 potentially calling {compilerrt_abort_impl}
+From callsite __mulvsi3_BB17_I3 potentially calling {__divsi3}
+From callsite __mulvsi3_BB18_I3 potentially calling {compilerrt_abort_impl}
+From callsite __paritydi2_BB0_I14 potentially calling {__paritysi2}
+From callsite __subvdi3_BB2_I3 potentially calling {compilerrt_abort_impl}
+From callsite __subvdi3_BB5_I3 potentially calling {compilerrt_abort_impl}
+From callsite __subvsi3_BB2_I3 potentially calling {compilerrt_abort_impl}
+From callsite __subvsi3_BB5_I3 potentially calling {compilerrt_abort_impl}
+From callsite __aeabi_ulcmp_BB0_I10 potentially calling {__ucmpdi2}
+From callsite __udivdi3_BB0_I14 potentially calling {__udivmoddi4}
+From callsite __udivmodsi4_BB0_I10 potentially calling {__udivsi3}
+From callsite __udivsi3_BB4_I1 potentially calling {__clzsi2}
+From callsite __udivsi3_BB4_I5 potentially calling {__clzsi2}
+From callsite __umoddi3_BB0_I14 potentially calling {__udivmoddi4}
+From callsite __umodsi3_BB0_I9 potentially calling {__udivsi3}
+
+Callee cjpeg_wrbmp_init can be called from (and return to) {main_BB0_I6}
+Callee cjpeg_wrbmp_putc_modified can be called from (and return to) {cjpeg_wrbmp_write_colormap_BB4_I6, cjpeg_wrbmp_write_colormap_BB4_I10, cjpeg_wrbmp_write_colormap_BB4_I15, cjpeg_wrbmp_write_colormap_BB4_I17, cjpeg_wrbmp_write_colormap_BB9_I6, cjpeg_wrbmp_write_colormap_BB9_I10, cjpeg_wrbmp_write_colormap_BB9_I15, cjpeg_wrbmp_write_colormap_BB9_I17, cjpeg_wrbmp_write_colormap_BB15_I1, cjpeg_wrbmp_write_colormap_BB15_I4, cjpeg_wrbmp_write_colormap_BB15_I7, cjpeg_wrbmp_write_colormap_BB15_I9}
+Callee cjpeg_wrbmp_finish_output_bmp can be called from (and return to) {cjpeg_wrbmp_main_BB0_I9, cjpeg_wrbmp_main_BB0_I20}
+Callee cjpeg_wrbmp_write_colormap can be called from (and return to) {cjpeg_wrbmp_main_BB0_I17, cjpeg_wrbmp_main_BB0_I25}
+Callee cjpeg_wrbmp_main can be called from (and return to) {main_BB0_I7}
+Callee cjpeg_wrbmp_return can be called from (and return to) {main_BB0_I8}
+Callee cjpeg_wrbmp_initInput can be called from (and return to) {cjpeg_wrbmp_init_BB0_I6}
+Callee compilerrt_abort_impl can be called from (and return to) {__absvdi2_BB1_I3, __absvsi2_BB1_I3, __addvdi3_BB2_I3, __addvdi3_BB5_I3, __addvsi3_BB2_I3, __addvsi3_BB5_I3, __mulvdi3_BB4_I3, __mulvdi3_BB9_I3, __mulvdi3_BB15_I3, __mulvdi3_BB18_I3, __mulvsi3_BB4_I3, __mulvsi3_BB9_I3, __mulvsi3_BB15_I3, __mulvsi3_BB18_I3, __subvdi3_BB2_I3, __subvdi3_BB5_I3, __subvsi3_BB2_I3, __subvsi3_BB5_I3}
+Callee __clzsi2 can be called from (and return to) {__udivsi3_BB4_I1, __udivsi3_BB4_I5}
+Callee __cmpdi2 can be called from (and return to) {__aeabi_lcmp_BB0_I10}
+Callee __divdi3 can be called from (and return to) {__divmoddi4_BB0_I22, __mulvdi3_BB14_I4, __mulvdi3_BB17_I6}
+Callee __udivmoddi4 can be called from (and return to) {__divdi3_BB0_I27, __moddi3_BB0_I24, __udivdi3_BB0_I14, __umoddi3_BB0_I14}
+Callee __divsi3 can be called from (and return to) {__divmodsi4_BB0_I10, __modsi3_BB0_I9, __mulvsi3_BB14_I2, __mulvsi3_BB17_I3}
+Callee __paritysi2 can be called from (and return to) {__paritydi2_BB0_I14}
+Callee __ucmpdi2 can be called from (and return to) {__aeabi_ulcmp_BB0_I10}
+Callee __udivsi3 can be called from (and return to) {__divsi3_BB0_I16, __udivmoddi4_BB4_I2, __udivmoddi4_BB12_I2, __udivmoddi4_BB16_I2, __udivmodsi4_BB0_I10, __umodsi3_BB0_I9}
+Callee __umodsi3 can be called from (and return to) {__udivmoddi4_BB3_I2, __udivmoddi4_BB11_I2, __udivmoddi4_BB15_I2}
+Callee memcpy can be called from (and return to) {cjpeg_wrbmp_initInput_BB0_I12}
+

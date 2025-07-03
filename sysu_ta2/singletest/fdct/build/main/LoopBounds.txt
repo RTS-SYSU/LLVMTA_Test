@@ -1,0 +1,7 @@
+We found the following loop bounds automatically:
+# In function fdct_fdct, loop:
+  BB#1:for.cond<header><exiting>_BB#2:for.body_BB#3:for.inc<latch> with context :CSITE_main_BB0_I10:FUNCALL_fdct_fdct
+the loop header is executed at most 2 times.
+# In function fdct_fdct, loop:
+  BB#5:for.cond94<header><exiting>_BB#6:for.body97_BB#7:for.inc216<latch> with context :CSITE_main_BB0_I10:FUNCALL_fdct_fdct
+the loop header is executed at most 2 times.

@@ -1,0 +1,14 @@
+main__CEOP_1 have 189 instructions
+main_MAX_CEOP_: 189
+/workspaces/llvmta/testcases/batchtest/matrix1
+main__CEOP_1 have 189 instructions
+main_MAX_CEOP_: 189
+--------------------------------------------------------------
+/workspaces/llvmta/testcases/batchtest/matrix1
+main__CEOP_1 have 189 instructions
+main_MAX_CEOP_: 189
+--------------------------------------------------------------
+/workspaces/llvmta/testcases/batchtest/matrix1
+main__CEOP_1 have 189 instructions
+main_MAX_CEOP_: 189
+--------------------------------------------------------------

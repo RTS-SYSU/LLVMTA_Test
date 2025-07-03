@@ -1,0 +1,35 @@
+main__CEOP_1 have 18035 instructions
+main__CEOP_2 have 18035 instructions
+main_MAX_CEOP_: 18035
+main__CEOP_1 have 9035 instructions
+main__CEOP_2 have 9035 instructions
+main_MAX_CEOP_: 9035
+main__CEOP_1 have 9035 instructions
+main__CEOP_2 have 9035 instructions
+main_MAX_CEOP_: 9035
+main__CEOP_1 have 9035 instructions
+main__CEOP_2 have 9035 instructions
+main_MAX_CEOP_: 9035
+main__CEOP_1 have 60 instructions
+main__CEOP_2 have 60 instructions
+main_MAX_CEOP_: 60
+/workspaces/llvmta/testcases/batchtest/rad2deg
+main__CEOP_1 have 85 instructions
+main__CEOP_2 have 85 instructions
+main_MAX_CEOP_: 85
+--------------------------------------------------------------
+/workspaces/llvmta/testcases/batchtest/rad2deg
+main__CEOP_1 have 110 instructions
+main__CEOP_2 have 110 instructions
+main_MAX_CEOP_: 110
+--------------------------------------------------------------
+/workspaces/llvmta/testcases/batchtest/rad2deg
+main__CEOP_1 have 85 instructions
+main__CEOP_2 have 85 instructions
+main_MAX_CEOP_: 85
+--------------------------------------------------------------
+/workspaces/llvmta/testcases/batchtest/rad2deg
+main__CEOP_1 have 110 instructions
+main__CEOP_2 have 110 instructions
+main_MAX_CEOP_: 110
+--------------------------------------------------------------
